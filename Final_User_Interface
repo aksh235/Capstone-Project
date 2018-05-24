@@ -2,10 +2,10 @@ import tkinter as tk
 import final_UI_fcts as f1
 from pandastable import Table, TableModel
 import pandas as pd
+import numpy as np
 LARGE_FONT = ("Verdana", 13)
 class NFL_Cap(tk.Tk):
         def __init__(self, *args, **kwargs):
-
                 tk.Tk.__init__(self,*args,**kwargs)
                 container = tk.Frame(self)
                 self.shared_data = pd.DataFrame()
@@ -16,7 +16,7 @@ class NFL_Cap(tk.Tk):
                 
                 self.frames = { }
 
-                for F in ( StartPage, ChooseYourTeam,Coaching_Preference,Coaching_Preference_Offense,Coaching_Preference_Defense,Coaching_Preference_Offense_Statistical,Coaching_Preference_Defense_Statistical,Coaching_Preference_Offense_Sim_Coach,Coaching_Preference_Defense_Sim_Coach,Result_Page):
+                for F in ( StartPage, ChooseYourTeam,Coaching_Preference,Coaching_Preference_Offense,Coaching_Preference_Defense,Coaching_Preference_Offense_Statistical,Coaching_Preference_Defense_Statistical,Result_Page_Offense,Result_Page_Defense):
                         
                         frame = F(container, self)
                         
@@ -50,47 +50,19 @@ class ChooseYourTeam(tk.Frame):#label2,variable1,om1,button2,3
                 tk.Frame.__init__(self,parent)
                 label2 = tk.Label(self,text="Choose your Team !",font=LARGE_FONT)
                 label2.pack(pady=10,padx=10)
-                OPTIONS = [
-                
-                    "Arizone Cardinals",
-                    "Atlanta Falcons",
-                    "Baltimore Ravens","Buffalo Bills",
-                    "Carolina Panthers",
-                    "Chicago Bears",
-                    "Cincinnatti Bengals",
-                    "Cleveland Browns",
-                    "dallas Cowboys",
-                    "Denver broncos",
-                    "detroi Liions",
-                    "Green bay packers",
-                    "Houston Texans",
-                    "indianapolis Colts",
-                    "Jaclsonville jaguars",
-                    "kansas city chiefs","loss angeles rams",
-                    "miami dolphins","minnesotta vikings",
-                    "new england patriots",
-                    "new orleans saints",
-                    "new york giants",
-                    "new york jets",
-                    "oakland raiders",
-                    "philadelphia eagles",
-                    "pittsburgh steelers",
-                    "san doego chargers",
-                    "san francisco 49ers",
-                    "Seattle Sea hawks",
-                    "saint louis rams","tampa bay buccanneers", "tennessee titans", "washington Redsons"
+                OPTIONS = ["Arizona Cardinals","Seattle Seahawks","St.Louis Rams","San Francisco 49ers","San Diego Chargers","Kansas City Chiefs","Oakland Raiders","Denver Broncos","Philadelphia Eagles","Dallas Cowboys","New York Giants","Washington Redskins","New York Jets","Buffalo Bills","Miami Dolphins","New England Patriots","Jacksonville Jaguars","Indianapolis Colts","TennesseeTitans","Houston Texans","Tampa Bay Buccanners","New Orleans Saints","Carolina Panthers","Atlanta Falcons","Baltimore Ravens","Pittsburgh Steelers","Cleveland Browns","Cincinnati Bengals","Green Bay Packers","Minnesota Vikings","Detroit Lions","Chicago Bears","Los Angeles Rams"
                 ] #etc
 
                 
 
-                variable1 = tk.StringVar(self)
-                variable1.set(OPTIONS[0]) # default value
+                self.variable1 = tk.StringVar(self)
+                self.variable1.set(OPTIONS[0]) # default value
 
-                optionmenu1 = tk.OptionMenu(self, variable1, *OPTIONS)
+                optionmenu1 = tk.OptionMenu(self, self.variable1, *OPTIONS)
                 optionmenu1.pack()
 
                 def ok():
-                    chosen_team = variable1.get()
+                    chosen_team = self.variable1.get()
                     print ("IM right ", chosen_team)
                     controller.show_frame(Coaching_Preference)
 
@@ -112,12 +84,12 @@ class Coaching_Preference(tk.Frame):#
                 label2 = tk.Label(self,text="Choose your Coaching Preference !",font=LARGE_FONT)
                 label2.pack(pady=10,padx=10)
                 def okq():
-                        controller.show_frame(Coaching_Preference_Offense)
+                        controller.show_frame(Coaching_Preference_Offense_Statistical)
                 button4 = tk.Button(self, text = "Offense",
                                      command=okq)
                 button4.pack()
                 def okw():
-                        controller.show_frame(Coaching_Preference_Defense)
+                        controller.show_frame(Coaching_Preference_Defense_Statistical)
                         Improvement = "Statistical"
                 button5 = tk.Button(self, text = "Defense",
                                      command=okw)
@@ -157,12 +129,7 @@ class Coaching_Preference_Defense(tk.Frame):#
                         controller.show_frame(Coaching_Preference_Defense_Statistical)
                         Improvement = "Statistical"
                 button8 = tk.Button(self, text = "Statistical Improvement",command=okq)
-                button8.pack()
-                def okw():
-                        controller.show_frame(Coaching_Preference_Defense_Sim_Coach)
-                        Improvement = "Statistical"
-                button9 = tk.Button(self, text = "Similar Coach",command=okw)
-                button9.pack()  
+                button8.pack() 
                 def back():
                         controller.show_frame(Coaching_Preference)
                 backbutton = tk.Button(self,text="back",command=back)
@@ -171,65 +138,74 @@ class Coaching_Preference_Offense_Statistical(tk.Frame):
         def __init__(self, parent, controller):
                 self.controller=controller
                 tk.Frame.__init__(self,parent)
-                label2 = tk.Label(self,text="Coaching Preference : Offense",font=LARGE_FONT).grid(row=2,column=3)
-                #label2.pack(pady=10,padx=10)
-                label3 = tk.Label(self,text="Improvement Strategy : Statical Improvement",font=LARGE_FONT).grid(row=5,column=3)
-                #label3.pack(pady=10,padx=10)
-                message = tk.Message(self,text="Please rate and score the following 10 statistical categories by assigning the number 1 to the stat you care the least about and assigning the number 10 to the stat you care the most about, and so forth.",font=LARGE_FONT).grid(row=8,column=3)
-                #message.pack()
-                label5 = tk.Label(self,text="Pass Yards Per Game",font=LARGE_FONT).grid(row=10,column=3)
-                #label5.pack()
-                entry1 = tk.Entry(self,width=10).grid(row=10,column=8)
-                #entry1.pack()
-                #entry1.focus_set()
+                #CHOICE = ["0.1","0.2","0.3","0.4","0.5","0.6","0.7","0.8","0.9"]
+                label2 = tk.Label(self,text="Coaching Preference : Offense",font=LARGE_FONT)
+                label2.pack(pady=10,padx=10)
+                label3 = tk.Label(self,text="Improvement Strategy : Statical Improvement",font=LARGE_FONT)
+                label3.pack(pady=10,padx=10)
+                message = tk.Message(self,text="Please rate and score the following 10 statistical categories by assigning the number 1 to the stat you care the least about and assigning the number 10 to the stat you care the most about, and so forth.",font=LARGE_FONT)
+                message.pack()
+                label5 = tk.Label(self,text="Pass Yards Per Game",font=LARGE_FONT)
+                label5.pack()
                 
-                label6 = tk.Label(self,text="Point Per Game",font=LARGE_FONT).grid(row=11,column=3)
-                #label6.pack()
-                entry2 = tk.Entry(self,width=10).grid(row=11,column=8)
-                #entry2.pack()
-                #entry2.focus_set()
+                
+                
 
-                label7 = tk.Label(self,text="Run Yards Per Game",font=LARGE_FONT).grid(row=12,column=3)
-                #label7.pack()
-                entry3 = tk.Entry(self,width=10).grid(row=12,column=8)
-                #entry3.pack()
-                #entry3.focus_set()
+                self.entry1 = tk.Entry(self,width=10)
+                self.entry1.pack()
+                self.entry1.focus_set()
+                
 
-                label8 = tk.Label(self,text="Sacks Allowed Per Game",font=LARGE_FONT).grid(row=13,column=3)
-                #label8.pack()                
-                entry4 = tk.Entry(self,width=10).grid(row=13,column=8)
-                #entry4.pack()
-                #entry4.focus_set()
-                label9 = tk.Label(self,text="Turnovers Per Game",font=LARGE_FONT).grid(row=14,column=3)
-                #label9.pack()                
-                entry5 = tk.Entry(self,width=10).grid(row=14,column=8)
-                #entry5.pack()
-                #entry5.focus_set()
+
+                label6 = tk.Label(self,text="Point Per Game",font=LARGE_FONT)
+                label6.pack()
+                self.entry2 = tk.Entry(self,width=10)
+                self.entry2.pack()
+                self.entry2.focus_set()
+
+                label7 = tk.Label(self,text="Run Yards Per Game",font=LARGE_FONT)
+                label7.pack()
+                self.entry3 = tk.Entry(self,width=10)
+                self.entry3.pack()
+                self.entry3.focus_set()
+
+                label8 = tk.Label(self,text="Sacks Allowed Per Game",font=LARGE_FONT)
+                label8.pack()                
+                self.entry4 = tk.Entry(self,width=10)
+                self.entry4.pack()
+                self.entry4.focus_set()
+                label9 = tk.Label(self,text="Turnovers Per Game",font=LARGE_FONT)
+                label9.pack()                
+                self.entry5 = tk.Entry(self,width=10)
+                self.entry5.pack()
+                self.entry5.focus_set()
+                #self.offense_stat1 = np.array([float(self.entry1.get()),float(self.entry2.get()),float(self.entry3.get()),float(self.entry4.get()),float(self.entry5.get())],dtype=float)
+
                 def compute():
-                    off_stat1 = float(entry1.get())
-                    print (off_stat1)
-                    off_stat2 = float(entry2.get())   
-                    print (off_stat2)
-                    off_stat3 = float(entry3.get())
-                    print(off_stat3)
-                    off_stat4 = float(entry4.get())
-                    print (off_stat4)
-                    off_stat5 = float(entry5.get())
-                    controller.show_frame(Result_Page)
-                    self.controller.shared_data = f1.filter_succMet_byCluster('PHI',"offense",[off_stat1,off_stat2,off_stat3,off_stat4,off_stat5])
-                    print(self.controller.shared_data.iloc[0:1,0:1])
-                    print(self.controller.shared_data.iloc[1:5,0:1])
-                    self.table = pt = Table(self, dataframe=self.controller.shared_data,
-                                       showtoolbar=True, showstatusbar=True)
-                    pt.show()
-                    
+                    #self.off_stat1 = self.entry1.get()
+                    #print (len(self.off_stat1))
+                    #self.off_stat2 = float(self.entry2.get())   
+                    #print (self.off_stat2)
+                    #self.off_stat3 = float(self.entry3.get())
+                    #print(self.off_stat3)
+                    #self.off_stat4 = float(self.entry4.get())
+                    #print (self.off_stat4)
+                    #self.off_stat5 = float(self.entry5.get())   
+                    controller.show_frame(Result_Page_Offense)
 
-                result1 = tk.Button(self,text="Compute",command=compute).grid(row=16,column=5)
-                #result1.pack()
+                    #self.controller.shared_data = f1.filter_succMet_byCluster('PHI',"offense",[off_stat1,off_stat2,off_stat3,off_stat4,off_stat5])
+                    #print(self.controller.shared_data.iloc[0:1,0:1])
+                    #print(self.controller.shared_data.iloc[1:5,0:1])
+                    #self.table = pt = Table(self, dataframe=self.controller.shared_data,
+                    #                   showtoolbar=True, showstatusbar=True)
+                    #pt.show()
+                    
+                result1 = tk.Button(self,text="Compute",command=compute)
+                result1.pack()
                 def back():
-                        controller.show_frame(Coaching_Preference_Offense)
-                backbutton = tk.Button(self,text="back",command=back).grid(row=18,column=5)
-                #backbutton.pack()
+                        controller.show_frame(Coaching_Preference)
+                backbutton = tk.Button(self,text="back",command=back)
+                backbutton.pack()
 class Coaching_Preference_Defense_Statistical(tk.Frame):
         def __init__(self, parent, controller):
                 self.controller=controller
@@ -270,113 +246,155 @@ class Coaching_Preference_Defense_Statistical(tk.Frame):
                 entry5.pack()
                 entry5.focus_set()
                 def compute():
-                    def_stat1 = float(entry1.get())
-                    print (def_stat1)
-                    def_stat2 = float(entry2.get())   
-                    print (def_stat2)
-                    def_stat3 = float(entry3.get())
-                    print(def_stat3)
-                    def_stat4 = float(entry4.get())
-                    print (def_stat4)
-                    def_stat5 = float(entry5.get())
-                    result = f1.filter_succMet_byCluster('PHI',"defense",[def_stat1,def_stat2,def_stat3,def_stat4,def_stat5])
+                    #def_stat1 = float(entry1.get())
+                    #print (def_stat1)
+                    #def_stat2 = float(entry2.get())   
+                    #print (def_stat2)
+                    #def_stat3 = float(entry3.get())
+                    ##print(def_stat3)
+                    #def_stat4 = float(entry4.get())
+                    #print (def_stat4)
+                    #def_stat5 = float(entry5.get())
+                    #result = f1.filter_succMet_byCluster('PHI',"defense",[def_stat1,def_stat2,def_stat3,def_stat4,def_stat5])
 
-                    print(result)
-                    controller.show_frame(Result_Page)
+                    #print(result)
+                    controller.show_frame(Result_Page_Defense)
                 result1 = tk.Button(self,text="Compute",command=compute)
                 result1.pack()
                 def back():
-                        controller.show_frame(Coaching_Preference_Defense)
+                        controller.show_frame(Coaching_Preference)
                 backbutton = tk.Button(self,text="back",command=back)
                 backbutton.pack()
-class Coaching_Preference_Offense_Sim_Coach(tk.Frame):
+
+
+class Result_Page_Offense(tk.Frame):
         def __init__(self, parent, controller):
                 self.controller=controller
                 tk.Frame.__init__(self,parent)
-                label2 = tk.Label(self,text="Coaching Preference : Offense",font=LARGE_FONT)
-                label2.pack(pady=10,padx=10)
-                label3 = tk.Label(self,text="Improvement Strategy : Similar Coach",font=LARGE_FONT)
-                label3.pack(pady=10,padx=10)
-
-
-                label4 = tk.Label(self,text="Coach Name",font=LARGE_FONT)
-                label4.pack()
-                
-                entry1 = tk.Entry(self,width=10)
-                entry1.pack()
-                entry1.focus_set()
-                label5 = tk.Label(self,text="Coach Year",font=LARGE_FONT)
-                label5.pack()
-                
-                
-                entry2 = tk.Entry(self,width=10)
-                entry2.pack()
-                entry2.focus_set()
-                def compute():
-                    Coach_Name = entry1.get() 
-                    print (Coach_Name)
-                    Year = entry2.get()   
-                    print (Year)
-                    controller.show_frame(Result_Page)
-                result1 = tk.Button(self,text="Compute",command=compute)
-                result1.pack()
-                def back():
-                        controller.show_frame(Coaching_Preference_Offense)
-                
-                backbutton = tk.Button(self,text="back",command=back)
-                backbutton.pack()
+                page1 = self.controller.get_page(Coaching_Preference_Offense_Statistical)
+                label1 = tk.Label(self,text = "Final Page",font=LARGE_FONT).grid(row=15,column =5)
+                #label1.pack()
+                page1 = self.controller.get_page(Coaching_Preference_Offense_Statistical)
+                page2 = self.controller.get_page(ChooseYourTeam)
+                choice1 = page2.variable1.get()
+                mydict = pd.read_csv('team_lookup1.csv', index_col=0, squeeze=True).to_dict()
+                for k,v in mydict.items():
+                    if choice1 == v or isinstance(v, list) and choice1 in v:
+                        team_name = k
                 
 
+
+
+
+
+                #off_stat1 = page1.variable1.get()
+                #off_stat2 = page1.entry2.get()
+                #off_stat3 = page1.entry3.get()
+                #off_stat4 = page1.entry4.get()
+                #off_stat5 = page1.entry5.get()
                 
-class Coaching_Preference_Defense_Sim_Coach(tk.Frame):
-        def __init__(self, parent, controller):
-                self.controller=controller
-                tk.Frame.__init__(self,parent)
-                label2 = tk.Label(self,text="Coaching Preference : Defense",font=LARGE_FONT)
-                label2.pack(pady=10,padx=10)
-                label3 = tk.Label(self,text="Improvement Strategy : Similar Coach",font=LARGE_FONT)
-                label3.pack(pady=10,padx=10)
                 
-                label4 = tk.Label(self,text="Coach Name",font=LARGE_FONT)
-                label4.pack()
-                entry1 = tk.Entry(self,width=10)
-                entry1.pack()
-                entry1.focus_set()
-                
-                label5 = tk.Label(self,text="Coach Year",font=LARGE_FONT)
-                label5.pack()
-                entry2 = tk.Entry(self,width=10)
-                entry2.pack()
-                entry2.focus_set()
-             
-                def compute():
-                    Coach_Name = entry1.get() 
-                    print (Coach_Name)
-                    Year = entry2.get()   
-                    print (Year)
-                    controller.show_frame(Result_Page)
-                result1 = tk.Button(self,text="Compute",command=compute)
-                result1.pack()
-                def back():
-                        controller.show_frame(Coaching_Preference_Defense)
-                backbutton = tk.Button(self,text="back",command=back)
-                backbutton.pack()
-class Result_Page(tk.Frame):
-        def __init__(self, parent, controller):
-                self.controller=controller
-                tk.Frame.__init__(self,parent)
-                label1 = tk.Label(self,text = "Final Page",font=LARGE_FONT).grid(row=1)
-                #page1 = self.controller.get_page(Coaching_Preference_Offense_Statistical)
+
+                def show():
+                    self.controller.shared_data = f1.filter_succMet_byCluster(team_name,"offense",[0.1,0.1,0.1,0.2,0.1])#[float(page1.entry1.get()),float(page1.entry2.get()), float(page1.entry3.get()),float(page1.entry4.get()),float(page1.entry5.get())])
+                    #print(self.controller.shared_data)
+                    #print(self.controller.shared_data.iloc[1,1])
+                    #print(off_stat1)
+                    #print(off_stat2)
+                    #print(team_name)
+                    
+                    
+
+
+
+                    self._widgets = []
+                    for row in range(len(self.controller.shared_data.index)):
+                        current_row = []
+                        for column in range(len(self.controller.shared_data.columns)):
+                            label = tk.Label(self, text="%s" % self.controller.shared_data.iloc[row, column],borderwidth=0, width=20)
+                            label.grid(row=row+5, column=column+15, sticky="nsew", padx=3, pady=3)
+                        current_row.append(label)
+                    self._widgets.append(current_row)
+
+                    for column in range(len(self.controller.shared_data.columns)):
+                       self.grid_columnconfigure(column, weight=1)
+                   
+                show = tk.Button(self,text="Show",command = show).grid(row=13,column=5)
+                #show.pack()
                 #df = page1.shared_data
                 #print(self.controller.shared_data)
                 #label2=tk.Label(self, text=df.iloc[0:1,0:1]).grid(row=2,column=1)
                 #label3=tk.Label(self, text=df.iloc[0:1,2:2]).grid(row=3,column=1)
                 def back():
-                        controller.show_frame(Coaching_Preference_Defense)
-                backbutton = tk.Button(self,text="back",command=back).grid(row=10,column=2)
+                        controller.show_frame(Coaching_Preference_Offense_Statistical)
+                backbutton = tk.Button(self,text="back",command=back).grid(row=17,column=5)
+                #backbutton.pack()
+class Result_Page_Defense(tk.Frame):
+        def __init__(self, parent, controller):
+                self.controller=controller
+                tk.Frame.__init__(self,parent)
+                page1 = self.controller.get_page(Coaching_Preference_Defense_Statistical)
+                label1 = tk.Label(self,text = "Final Page",font=LARGE_FONT).grid(row=15,column =5)
+                #label1.pack()
+                page1 = self.controller.get_page(Coaching_Preference_Offense_Statistical)
+                page2 = self.controller.get_page(ChooseYourTeam)
+                choice1 = page2.variable1.get()
+                mydict = pd.read_csv('team_lookup1.csv', index_col=0, squeeze=True).to_dict()
+                for k,v in mydict.items():
+                    if choice1 == v or isinstance(v, list) and choice1 in v:
+                        team_name = k
+                
+
+
+
+
+
+                #off_stat1 = page1.variable1.get()
+                #off_stat2 = page1.entry2.get()
+                #off_stat3 = page1.entry3.get()
+                #off_stat4 = page1.entry4.get()
+                #off_stat5 = page1.entry5.get()
+                
+                
+
+                def show():
+                    self.controller.shared_data = f1.filter_succMet_byCluster(team_name,"defense",[0.1,0.1,0.1,0.2,0.1])#[float(page1.entry1.get()),float(page1.entry2.get()), float(page1.entry3.get()),float(page1.entry4.get()),float(page1.entry5.get())])
+                    #print(self.controller.shared_data)
+                    #print(self.controller.shared_data.iloc[1,1])
+                    #print(off_stat1)
+                    #print(off_stat2)
+                    #print(team_name)
+                    
+                    
+
+
+
+                    self._widgets = []
+                    for row in range(len(self.controller.shared_data.index)):
+                        current_row = []
+                        for column in range(len(self.controller.shared_data.columns)):
+                            label = tk.Label(self, text="%s" % self.controller.shared_data.iloc[row, column],borderwidth=0, width=20)
+                            label.grid(row=row+5, column=column+15, sticky="nsew", padx=3, pady=3)
+                        current_row.append(label)
+                    self._widgets.append(current_row)
+
+                    for column in range(len(self.controller.shared_data.columns)):
+                       self.grid_columnconfigure(column, weight=1)
+                   
+                show = tk.Button(self,text="Show",command = show).grid(row=13,column=5)
+                #show.pack()
+                #df = page1.shared_data
+                #print(self.controller.shared_data)
+                #label2=tk.Label(self, text=df.iloc[0:1,0:1]).grid(row=2,column=1)
+                #label3=tk.Label(self, text=df.iloc[0:1,2:2]).grid(row=3,column=1)
+                def back():
+                        controller.show_frame(Coaching_Preference_Defense_Statistical)
+                backbutton = tk.Button(self,text="back",command=back).grid(row=17,column=5)
+                #backbutton.pack()
 print()                
 app = NFL_Cap()
 app.mainloop()
+#off_stat1,off_stat2,off_stat3,off_stat4,off_stat5
 
 
 
