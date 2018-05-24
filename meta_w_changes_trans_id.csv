@@ -1,0 +1,543 @@
+team_id,year,team,record,head_coach,off_coord,def_coord,def_align,binary,trans_id
+Cardinals_00,2000,Arizona Cardinals,3/13/2000,Dave McGinnis,Marc Trestman,"Larry Marmie, Dave McGinnis",3-Apr,0,
+Cardinals_01,2001,Arizona Cardinals,7/9/2000,Dave McGinnis,Rich Olson,Larry Marmie,3-Apr,0,
+Cardinals_02,2002,Arizona Cardinals,5/11/2000,Dave McGinnis,Rich Olson,Larry Marmie,3-Apr,0,
+Cardinals_03,2003,Arizona Cardinals,4/12/2000,Dave McGinnis,Jerry Sullivan,Larry Marmie,3-Apr,0,
+Cardinals_04,2004,Arizona Cardinals,6/10/2000,Dennis Green,Alex Wood,Clancy Pendergast,3-Apr,1,4
+Cardinals_05,2005,Arizona Cardinals,5/11/2000,Dennis Green,Keith Rowen,Clancy Pendergast,3-Apr,0,
+Cardinals_06,2006,Arizona Cardinals,5/11/2000,Dennis Green,"Mike Kruczek, Keith Rowen",Clancy Pendergast,3-Apr,0,
+Cardinals_07,2007,Arizona Cardinals,8/8/2000,Ken Whisenhunt,Todd Haley,Clancy Pendergast,3-Apr,1,1
+Cardinals_08,2008,Arizona Cardinals,9/7/2000,Ken Whisenhunt,Todd Haley,Clancy Pendergast,3-Apr,0,
+Cardinals_09,2009,Arizona Cardinals,10/6/2000,Ken Whisenhunt,NA,Bill Davis,4-Mar,0,
+Cardinals_10,2010,Arizona Cardinals,5/11/2000,Ken Whisenhunt,NA,Bill Davis,4-Mar,0,
+Cardinals_11,2011,Arizona Cardinals,8/8/2000,Ken Whisenhunt,Mike Miller,Ray Horton,4-Mar,0,
+Cardinals_12,2012,Arizona Cardinals,5/11/2000,Ken Whisenhunt,Mike Miller,Ray Horton,4-Mar,0,
+Cardinals_13,2013,Arizona Cardinals,10/6/2000,Bruce Arians,Harold Goodwin,Todd Bowles,4-Mar,1,1
+Cardinals_14,2014,Arizona Cardinals,11/5/2000,Bruce Arians,Harold Goodwin,Todd Bowles,4-Mar,0,
+Cardinals_15,2015,Arizona Cardinals,13-3-0,Bruce Arians,Harold Goodwin,James Bettcher,4-Mar,0,
+Cardinals_16,2016,Arizona Cardinals,7/8/2001,Bruce Arians,Harold Goodwin,James Bettcher,4-Mar,0,
+Falcons_00,2000,Atlanta Falcons,4/12/2000,Dan Reeves,George Sefcik,Rich Brooks,3-Apr,0,
+Falcons_01,2001,Atlanta Falcons,7/9/2000,Dan Reeves,George Sefcik,Don Blackmon,3-Apr,0,
+Falcons_02,2002,Atlanta Falcons,9/6/2001,Dan Reeves,NA,Wade Phillips,4-Mar,0,
+Falcons_03,2003,Atlanta Falcons,5/11/2000,Wade Phillips,Pete Mangurian,Wade Phillips,4-Mar,1,3
+Falcons_04,2004,Atlanta Falcons,11/5/2000,Jim Mora,Greg Knapp,Ed Donatell,3-Apr,1,2
+Falcons_05,2005,Atlanta Falcons,8/8/2000,Jim Mora,Greg Knapp,Ed Donatell,3-Apr,0,
+Falcons_06,2006,Atlanta Falcons,7/9/2000,Jim Mora,Greg Knapp,Ed Donatell,3-Apr,0,
+Falcons_07,2007,Atlanta Falcons,4/12/2000,Emmitt Thomas,Hue Jackson,Mike Zimmer,3-Apr,1,2
+Falcons_08,2008,Atlanta Falcons,11/5/2000,Mike Smith,Mike Mularkey,Brian VanGorder,3-Apr,1,2
+Falcons_09,2009,Atlanta Falcons,9/7/2000,Mike Smith,Mike Mularkey,Brian VanGorder,3-Apr,0,
+Falcons_10,2010,Atlanta Falcons,13-3-0,Mike Smith,Mike Mularkey,Brian VanGorder,3-Apr,0,
+Falcons_11,2011,Atlanta Falcons,10/6/2000,Mike Smith,Mike Mularkey,Brian VanGorder,3-Apr,0,
+Falcons_12,2012,Atlanta Falcons,13-3-0,Mike Smith,Dirk Koetter,Mike Nolan,3-Apr,0,
+Falcons_13,2013,Atlanta Falcons,4/12/2000,Mike Smith,Dirk Koetter,Mike Nolan,3-Apr,0,
+Falcons_14,2014,Atlanta Falcons,6/10/2000,Mike Smith,Dirk Koetter,Mike Nolan,4-Mar,0,
+Falcons_15,2015,Atlanta Falcons,8/8/2000,Dan Quinn,Kyle Shanahan,Richard Smith,3-Apr,1,2
+Falcons_16,2016,Atlanta Falcons,11/5/2000,Dan Quinn,Kyle Shanahan,Richard Smith,3-Apr,0,
+Ravens_00,2000,Baltimore Ravens,12/4/2000,Brian Billick,Matt Cavanaugh,Marvin Lewis,3-Apr,0,
+Ravens_01,2001,Baltimore Ravens,10/6/2000,Brian Billick,Matt Cavanaugh,Marvin Lewis,3-Apr,0,
+Ravens_02,2002,Baltimore Ravens,7/9/2000,Brian Billick,Matt Cavanaugh,Mike Nolan,4-Mar,0,
+Ravens_03,2003,Baltimore Ravens,10/6/2000,Brian Billick,Matt Cavanaugh,Mike Nolan,4-Mar,0,
+Ravens_04,2004,Baltimore Ravens,9/7/2000,Brian Billick,Matt Cavanaugh,Mike Nolan,4-Mar,0,
+Ravens_05,2005,Baltimore Ravens,6/10/2000,Brian Billick,Jim Fassel,Rex Ryan,3-Apr,0,
+Ravens_06,2006,Baltimore Ravens,13-3-0,Brian Billick,Jim Fassel,Rex Ryan,3-Apr,0,
+Ravens_07,2007,Baltimore Ravens,5/11/2000,Brian Billick,Rick Neuheisel,Rex Ryan,4-Mar,0,
+Ravens_08,2008,Baltimore Ravens,11/5/2000,John Harbaugh,Cam Cameron,Rex Ryan,4-Mar,1,3
+Ravens_09,2009,Baltimore Ravens,9/7/2000,John Harbaugh,Cam Cameron,Greg Mattison,4-Mar,0,
+Ravens_10,2010,Baltimore Ravens,12/4/2000,John Harbaugh,Cam Cameron,Greg Mattison,4-Mar,0,
+Ravens_11,2011,Baltimore Ravens,12/4/2000,John Harbaugh,Cam Cameron,Chuck Pagano,4-Mar,0,
+Ravens_12,2012,Baltimore Ravens,10/6/2000,John Harbaugh,"Jim Caldwell, Cam Cameron",Dean Pees,4-Mar,0,
+Ravens_13,2013,Baltimore Ravens,8/8/2000,John Harbaugh,Jim Caldwell,Dean Pees,4-Mar,0,
+Ravens_14,2014,Baltimore Ravens,10/6/2000,John Harbaugh,Gary Kubiak,Dean Pees,4-Mar,0,
+Ravens_15,2015,Baltimore Ravens,5/11/2000,John Harbaugh,Marc Trestman,Dean Pees,4-Mar,0,
+Ravens_16,2016,Baltimore Ravens,8/8/2000,John Harbaugh,"Marty Mornhinweg, Marc Trestman",Dean Pees,4-Mar,0,
+Bills_00,2000,Buffalo Bills,8/8/2000,Wade Phillips,Joe Pendry,Ted Cottrell,4-Mar,0,
+Bills_01,2001,Buffalo Bills,3/13/2000,Gregg Williams,Mike Sheppard,Jerry Gray,3-Apr,1,2
+Bills_02,2002,Buffalo Bills,8/8/2000,Gregg Williams,Kevin Gilbride,Jerry Gray,3-Apr,0,
+Bills_03,2003,Buffalo Bills,6/10/2000,Gregg Williams,Kevin Gilbride,Jerry Gray,3-Apr,0,
+Bills_04,2004,Buffalo Bills,9/7/2000,Mike Mularkey,Tom Clements,Jerry Gray,3-Apr,1,4
+Bills_05,2005,Buffalo Bills,5/11/2000,Mike Mularkey,Tom Clements,Jerry Gray,3-Apr,0,
+Bills_06,2006,Buffalo Bills,7/9/2000,Dick Jauron,Steve Fairchild,Perry Fewell,3-Apr,1,3
+Bills_07,2007,Buffalo Bills,7/9/2000,Dick Jauron,Steve Fairchild,Perry Fewell,3-Apr,0,
+Bills_08,2008,Buffalo Bills,7/9/2000,Dick Jauron,Turk Schonert,Perry Fewell,3-Apr,0,
+Bills_09,2009,Buffalo Bills,6/10/2000,Perry Fewell,Alex Van Pelt,Perry Fewell,3-Apr,1,2
+Bills_10,2010,Buffalo Bills,4/12/2000,Chan Gailey,Curtis Modkins,George Edwards,4-Mar,1,4
+Bills_11,2011,Buffalo Bills,6/10/2000,Chan Gailey,Curtis Modkins,George Edwards,3-Apr,0,
+Bills_12,2012,Buffalo Bills,6/10/2000,Chan Gailey,Curtis Modkins,Dave Wannstedt,3-Apr,0,
+Bills_13,2013,Buffalo Bills,6/10/2000,Doug Marrone,Nathaniel Hackett,Mike Pettine,4-Mar,1,1
+Bills_14,2014,Buffalo Bills,9/7/2000,Doug Marrone,Nathaniel Hackett,Jim Schwartz,3-Apr,0,
+Bills_15,2015,Buffalo Bills,8/8/2000,Rex Ryan,Greg Roman,Dennis Thurman,4-Mar,1,3
+Bills_16,2016,Buffalo Bills,7/9/2000,Anthony Lynn,"Anthony Lynn, Greg Roman",Dennis Thurman,4-Mar,0,
+Panthers_00,2000,Carolina Panthers,7/9/2000,George Seifert,"Bill Musgrave, Richard Williamson",John Marshall,3-Apr,0,
+Panthers_01,2001,Carolina Panthers,1/15/2000,George Seifert,Richard Williamson,John Marshall,3-Apr,0,
+Panthers_02,2002,Carolina Panthers,7/9/2000,John Fox,Dan Henning,Jack Del Rio,3-Apr,1,2
+Panthers_03,2003,Carolina Panthers,11/5/2000,John Fox,Dan Henning,Mike Trgovac,3-Apr,0,
+Panthers_04,2004,Carolina Panthers,7/9/2000,John Fox,Dan Henning,Mike Trgovac,3-Apr,0,
+Panthers_05,2005,Carolina Panthers,11/5/2000,John Fox,Dan Henning,Mike Trgovac,3-Apr,0,
+Panthers_06,2006,Carolina Panthers,8/8/2000,John Fox,Dan Henning,Mike Trgovac,3-Apr,0,
+Panthers_07,2007,Carolina Panthers,7/9/2000,John Fox,Jeff Davidson,Mike Trgovac,3-Apr,0,
+Panthers_08,2008,Carolina Panthers,12/4/2000,John Fox,Jeff Davidson,Mike Trgovac,3-Apr,0,
+Panthers_09,2009,Carolina Panthers,8/8/2000,John Fox,Jeff Davidson,Ron Meeks,3-Apr,0,
+Panthers_10,2010,Carolina Panthers,2/14/2000,John Fox,Jeff Davidson,Ron Meeks,3-Apr,0,
+Panthers_11,2011,Carolina Panthers,6/10/2000,Ron Rivera,Rob Chudzinski,Sean McDermott,3-Apr,1,2
+Panthers_12,2012,Carolina Panthers,7/9/2000,Ron Rivera,Rob Chudzinski,Sean McDermott,3-Apr,0,
+Panthers_13,2013,Carolina Panthers,12/4/2000,Ron Rivera,Mike Shula,Sean McDermott,3-Apr,0,
+Panthers_14,2014,Carolina Panthers,7/8/2001,Ron Rivera,Mike Shula,Sean McDermott,3-Apr,0,
+Panthers_15,2015,Carolina Panthers,15-1-0,Ron Rivera,Mike Shula,Sean McDermott,3-Apr,0,
+Panthers_16,2016,Carolina Panthers,6/10/2000,Ron Rivera,Mike Shula,Sean McDermott,3-Apr,0,
+Bears_00,2000,Chicago Bears,5/11/2000,Dick Jauron,Gary Crowton,Greg Blache,3-Apr,0,
+Bears_01,2001,Chicago Bears,13-3-0,Dick Jauron,John Shoop,Greg Blache,3-Apr,0,
+Bears_02,2002,Chicago Bears,4/12/2000,Dick Jauron,John Shoop,Greg Blache,3-Apr,0,
+Bears_03,2003,Chicago Bears,7/9/2000,Dick Jauron,John Shoop,Greg Blache,3-Apr,0,
+Bears_04,2004,Chicago Bears,5/11/2000,Lovie Smith,Terry Shea,Ron Rivera,3-Apr,1,2
+Bears_05,2005,Chicago Bears,11/5/2000,Lovie Smith,Ron Turner,Ron Rivera,3-Apr,0,
+Bears_06,2006,Chicago Bears,13-3-0,Lovie Smith,Ron Turner,Ron Rivera,3-Apr,0,
+Bears_07,2007,Chicago Bears,7/9/2000,Lovie Smith,Ron Turner,Bob Babich,3-Apr,0,
+Bears_08,2008,Chicago Bears,9/7/2000,Lovie Smith,Ron Turner,Bob Babich,3-Apr,0,
+Bears_09,2009,Chicago Bears,7/9/2000,Lovie Smith,Ron Turner,Bob Babich,3-Apr,0,
+Bears_10,2010,Chicago Bears,11/5/2000,Lovie Smith,Mike Martz,Rod Marinelli,3-Apr,0,
+Bears_11,2011,Chicago Bears,8/8/2000,Lovie Smith,Mike Martz,Rod Marinelli,3-Apr,0,
+Bears_12,2012,Chicago Bears,10/6/2000,Lovie Smith,Mike Tice,Rod Marinelli,3-Apr,0,
+Bears_13,2013,Chicago Bears,8/8/2000,Marc Trestman,Aaron Kromer,Mel Tucker,3-Apr,1,4
+Bears_14,2014,Chicago Bears,5/11/2000,Marc Trestman,Aaron Kromer,Mel Tucker,3-Apr,0,
+Bears_15,2015,Chicago Bears,6/10/2000,John Fox,Adam Gase,Vic Fangio,4-Mar,1,3
+Bears_16,2016,Chicago Bears,3/13/2000,John Fox,Dowell Loggains,Vic Fangio,4-Mar,0,
+Bengals_00,2000,Cincinnati Bengals,4/12/2000,Bruce Coslet,Ken Anderson,Dick LeBeau,3-Apr,0,
+Bengals_01,2001,Cincinnati Bengals,6/10/2000,Dick LeBeau,Bob Bratkowski,Mark Duffner,3-Apr,1,3
+Bengals_02,2002,Cincinnati Bengals,2/14/2000,Dick LeBeau,Bob Bratkowski,Mark Duffner,3-Apr,0,
+Bengals_03,2003,Cincinnati Bengals,8/8/2000,Marvin Lewis,Bob Bratkowski,Leslie Frazier,3-Apr,1,2
+Bengals_04,2004,Cincinnati Bengals,8/8/2000,Marvin Lewis,Bob Bratkowski,Leslie Frazier,3-Apr,0,
+Bengals_05,2005,Cincinnati Bengals,11/5/2000,Marvin Lewis,Bob Bratkowski,Chuck Bresnahan,3-Apr,0,
+Bengals_06,2006,Cincinnati Bengals,8/8/2000,Marvin Lewis,Bob Bratkowski,Chuck Bresnahan,3-Apr,0,
+Bengals_07,2007,Cincinnati Bengals,7/9/2000,Marvin Lewis,Bob Bratkowski,Chuck Bresnahan,3-Apr,0,
+Bengals_08,2008,Cincinnati Bengals,4/11/2001,Marvin Lewis,Bob Bratkowski,Mike Zimmer,3-Apr,0,
+Bengals_09,2009,Cincinnati Bengals,10/6/2000,Marvin Lewis,Bob Bratkowski,Mike Zimmer,3-Apr,0,
+Bengals_10,2010,Cincinnati Bengals,4/12/2000,Marvin Lewis,Bob Bratkowski,Mike Zimmer,3-Apr,0,
+Bengals_11,2011,Cincinnati Bengals,9/7/2000,Marvin Lewis,Jay Gruden,Mike Zimmer,3-Apr,0,
+Bengals_12,2012,Cincinnati Bengals,10/6/2000,Marvin Lewis,Jay Gruden,Mike Zimmer,3-Apr,0,
+Bengals_13,2013,Cincinnati Bengals,11/5/2000,Marvin Lewis,Jay Gruden,Mike Zimmer,3-Apr,0,
+Bengals_14,2014,Cincinnati Bengals,10/5/2001,Marvin Lewis,Hue Jackson,Paul Guenther,3-Apr,0,
+Bengals_15,2015,Cincinnati Bengals,12/4/2000,Marvin Lewis,Hue Jackson,Paul Guenther,3-Apr,0,
+Bengals_16,2016,Cincinnati Bengals,6/9/2001,Marvin Lewis,Ken Zampese,Paul Guenther,3-Apr,0,
+Browns_00,2000,Cleveland Browns,3/13/2000,Chris Palmer,Pete Carmichael,Romeo Crennel,3-Apr,0,
+Browns_01,2001,Cleveland Browns,7/9/2000,Butch Davis,Bruce Arians,Foge Fazio,3-Apr,1,3
+Browns_02,2002,Cleveland Browns,9/7/2000,Butch Davis,Bruce Arians,Foge Fazio,3-Apr,0,
+Browns_03,2003,Cleveland Browns,5/11/2000,Butch Davis,Bruce Arians,Dave Campo,3-Apr,0,
+Browns_04,2004,Cleveland Browns,4/12/2000,Terry Robiskie,"Rob Chudzinski, Terry Robiskie",Dave Campo,3-Apr,1,4
+Browns_05,2005,Cleveland Browns,6/10/2000,Romeo Crennel,Maurice Carthon,Todd Grantham,4-Mar,1,3
+Browns_06,2006,Cleveland Browns,4/12/2000,Romeo Crennel,"Maurice Carthon, Jeff Davidson",Todd Grantham,4-Mar,0,
+Browns_07,2007,Cleveland Browns,10/6/2000,Romeo Crennel,Rob Chudzinski,Todd Grantham,4-Mar,0,
+Browns_08,2008,Cleveland Browns,4/12/2000,Romeo Crennel,Rob Chudzinski,Mel Tucker,4-Mar,0,
+Browns_09,2009,Cleveland Browns,5/11/2000,Eric Mangini,Brian Daboll,Rob Ryan,4-Mar,1,4
+Browns_10,2010,Cleveland Browns,5/11/2000,Eric Mangini,Brian Daboll,Rob Ryan,4-Mar,0,
+Browns_11,2011,Cleveland Browns,4/12/2000,Pat Shurmur,NA,Dick Jauron,3-Apr,1,1
+Browns_12,2012,Cleveland Browns,5/11/2000,Pat Shurmur,Brad Childress,Dick Jauron,3-Apr,0,
+Browns_13,2013,Cleveland Browns,4/12/2000,Rob Chudzinski,Norv Turner,Ray Horton,4-Mar,1,1
+Browns_14,2014,Cleveland Browns,7/9/2000,Mike Pettine,Kyle Shanahan,"[""Jim O'Neil""]",4-Mar,1,3
+Browns_15,2015,Cleveland Browns,3/13/2000,Mike Pettine,John DeFilippo,"[""Jim O'Neil""]",4-Mar,0,
+Browns_16,2016,Cleveland Browns,1/15/2000,Hue Jackson,NA,Ray Horton,4-Mar,1,4
+Cowboys_00,2000,Dallas Cowboys,5/11/2000,Dave Campo,Jack Reilly,Mike Zimmer,3-Apr,0,
+Cowboys_01,2001,Dallas Cowboys,5/11/2000,Dave Campo,Jack Reilly,Mike Zimmer,3-Apr,0,
+Cowboys_02,2002,Dallas Cowboys,5/11/2000,Dave Campo,Bruce Coslet,Mike Zimmer,3-Apr,0,
+Cowboys_03,2003,Dallas Cowboys,10/6/2000,Bill Parcells,Maurice Carthon,Mike Zimmer,3-Apr,1,2
+Cowboys_04,2004,Dallas Cowboys,6/10/2000,Bill Parcells,Maurice Carthon,Mike Zimmer,3-Apr,0,
+Cowboys_05,2005,Dallas Cowboys,9/7/2000,Bill Parcells,NA,Mike Zimmer,4-Mar,0,
+Cowboys_06,2006,Dallas Cowboys,9/7/2000,Bill Parcells,NA,Mike Zimmer,4-Mar,0,
+Cowboys_07,2007,Dallas Cowboys,13-3-0,Wade Phillips,Jason Garrett,Brian Stewart,4-Mar,1,2
+Cowboys_08,2008,Dallas Cowboys,9/7/2000,Wade Phillips,Jason Garrett,Brian Stewart,4-Mar,0,
+Cowboys_09,2009,Dallas Cowboys,11/5/2000,Wade Phillips,Jason Garrett,NA,4-Mar,0,
+Cowboys_10,2010,Dallas Cowboys,6/10/2000,Wade Phillips,Jason Garrett,Paul Pasqualoni,4-Mar,0,
+Cowboys_11,2011,Dallas Cowboys,8/8/2000,Jason Garrett,NA,Rob Ryan,4-Mar,1,4
+Cowboys_12,2012,Dallas Cowboys,8/8/2000,Jason Garrett,Bill Callahan,Rob Ryan,4-Mar,0,
+Cowboys_13,2013,Dallas Cowboys,8/8/2000,Jason Garrett,Bill Callahan,Monte Kiffin,3-Apr,0,
+Cowboys_14,2014,Dallas Cowboys,12/4/2000,Jason Garrett,Bill Callahan,Rod Marinelli,3-Apr,0,
+Cowboys_15,2015,Dallas Cowboys,4/12/2000,Jason Garrett,Scott Linehan,Rod Marinelli,3-Apr,0,
+Cowboys_16,2016,Dallas Cowboys,13-3-0,Jason Garrett,Scott Linehan,Rod Marinelli,3-Apr,0,
+Broncos_00,2000,Denver Broncos,11/5/2000,Mike Shanahan,Gary Kubiak,Greg Robinson,3-Apr,0,
+Broncos_01,2001,Denver Broncos,8/8/2000,Mike Shanahan,Gary Kubiak,Ray Rhodes,3-Apr,0,
+Broncos_02,2002,Denver Broncos,9/7/2000,Mike Shanahan,Gary Kubiak,Ray Rhodes,3-Apr,0,
+Broncos_03,2003,Denver Broncos,10/6/2000,Mike Shanahan,Gary Kubiak,Larry Coyer,3-Apr,0,
+Broncos_04,2004,Denver Broncos,10/6/2000,Mike Shanahan,Gary Kubiak,Larry Coyer,3-Apr,0,
+Broncos_05,2005,Denver Broncos,13-3-0,Mike Shanahan,Gary Kubiak,Larry Coyer,3-Apr,0,
+Broncos_06,2006,Denver Broncos,9/7/2000,Mike Shanahan,Rick Dennison,Larry Coyer,3-Apr,0,
+Broncos_07,2007,Denver Broncos,7/9/2000,Mike Shanahan,Rick Dennison,Bob Slowik,3-Apr,0,
+Broncos_08,2008,Denver Broncos,8/8/2000,Mike Shanahan,Rick Dennison,Bob Slowik,3-Apr,0,
+Broncos_09,2009,Denver Broncos,8/8/2000,Josh McDaniels,Mike McCoy,Mike Nolan,4-Mar,1,1
+Broncos_10,2010,Denver Broncos,4/12/2000,Eric Studesville,Mike McCoy,Don Martindale,4-Mar,0,
+Broncos_11,2011,Denver Broncos,8/8/2000,John Fox,Mike McCoy,Dennis Allen,3-Apr,1,3
+Broncos_12,2012,Denver Broncos,13-3-0,John Fox,Mike McCoy,Jack Del Rio,3-Apr,0,
+Broncos_13,2013,Denver Broncos,13-3-0,John Fox,Adam Gase,Jack Del Rio,3-Apr,0,
+Broncos_14,2014,Denver Broncos,12/4/2000,John Fox,Adam Gase,Jack Del Rio,3-Apr,0,
+Broncos_15,2015,Denver Broncos,12/4/2000,Gary Kubiak,Rick Dennison,Wade Phillips,4-Mar,1,4
+Broncos_16,2016,Denver Broncos,9/7/2000,Gary Kubiak,Rick Dennison,Wade Phillips,4-Mar,0,
+Lions_00,2000,Detroit Lions,9/7/2000,Gary Moeller,Sylvester Croom,Larry Peccatiello,3-Apr,0,
+Lions_01,2001,Detroit Lions,2/14/2000,Marty Mornhinweg,Maurice Carthon,Vince Tobin,3-Apr,1,4
+Lions_02,2002,Detroit Lions,3/13/2000,Marty Mornhinweg,Maurice Carthon,Kurt Schottenheimer,3-Apr,0,
+Lions_03,2003,Detroit Lions,5/11/2000,Steve Mariucci,Sherman Lewis,Kurt Schottenheimer,3-Apr,1,1
+Lions_04,2004,Detroit Lions,6/10/2000,Steve Mariucci,Sherman Lewis,Dick Jauron,3-Apr,0,
+Lions_05,2005,Detroit Lions,5/11/2000,Dick Jauron,"Greg Olson, Ted Tollner",Dick Jauron,3-Apr,1,3
+Lions_06,2006,Detroit Lions,3/13/2000,Rod Marinelli,Mike Martz,Donnie Henderson,3-Apr,1,2
+Lions_07,2007,Detroit Lions,7/9/2000,Rod Marinelli,Mike Martz,Joe Barry,3-Apr,0,
+Lions_08,2008,Detroit Lions,0-16-0,Rod Marinelli,Jim Colletto,Joe Barry,3-Apr,0,
+Lions_09,2009,Detroit Lions,2/14/2000,Jim Schwartz,Scott Linehan,Gunther Cunningham,3-Apr,1,2
+Lions_10,2010,Detroit Lions,6/10/2000,Jim Schwartz,Scott Linehan,Gunther Cunningham,3-Apr,0,
+Lions_11,2011,Detroit Lions,10/6/2000,Jim Schwartz,Scott Linehan,Gunther Cunningham,3-Apr,0,
+Lions_12,2012,Detroit Lions,4/12/2000,Jim Schwartz,Scott Linehan,Gunther Cunningham,3-Apr,0,
+Lions_13,2013,Detroit Lions,7/9/2000,Jim Schwartz,Scott Linehan,Gunther Cunningham,3-Apr,0,
+Lions_14,2014,Detroit Lions,11/5/2000,Jim Caldwell,Joe Lombardi,Teryl Austin,3-Apr,1,4
+Lions_15,2015,Detroit Lions,7/9/2000,Jim Caldwell,"Jim Bob Cooter, Joe Lombardi",Teryl Austin,3-Apr,0,
+Lions_16,2016,Detroit Lions,9/7/2000,Jim Caldwell,Jim Bob Cooter,Teryl Austin,3-Apr,0,
+Packers_00,2000,Green Bay Packers,9/7/2000,Mike Sherman,Tom Rossley,Ed Donatell,3-Apr,0,
+Packers_01,2001,Green Bay Packers,12/4/2000,Mike Sherman,Tom Rossley,Ed Donatell,3-Apr,0,
+Packers_02,2002,Green Bay Packers,12/4/2000,Mike Sherman,Tom Rossley,Ed Donatell,3-Apr,0,
+Packers_03,2003,Green Bay Packers,10/6/2000,Mike Sherman,Tom Rossley,Ed Donatell,3-Apr,0,
+Packers_04,2004,Green Bay Packers,10/6/2000,Mike Sherman,Tom Rossley,Bob Slowik,3-Apr,0,
+Packers_05,2005,Green Bay Packers,4/12/2000,Mike Sherman,Tom Rossley,Jim Bates,3-Apr,0,
+Packers_06,2006,Green Bay Packers,8/8/2000,Mike McCarthy,Jeff Jagodzinski,Bob Sanders,3-Apr,1,1
+Packers_07,2007,Green Bay Packers,13-3-0,Mike McCarthy,Joe Philbin,Bob Sanders,3-Apr,0,
+Packers_08,2008,Green Bay Packers,6/10/2000,Mike McCarthy,Joe Philbin,Bob Sanders,3-Apr,0,
+Packers_09,2009,Green Bay Packers,11/5/2000,Mike McCarthy,Joe Philbin,Dom Capers,4-Mar,0,
+Packers_10,2010,Green Bay Packers,10/6/2000,Mike McCarthy,Joe Philbin,Dom Capers,4-Mar,0,
+Packers_11,2011,Green Bay Packers,15-1-0,Mike McCarthy,Joe Philbin,Dom Capers,4-Mar,0,
+Packers_12,2012,Green Bay Packers,11/5/2000,Mike McCarthy,Tom Clements,Dom Capers,4-Mar,0,
+Packers_13,2013,Green Bay Packers,8/7/2001,Mike McCarthy,Tom Clements,Dom Capers,4-Mar,0,
+Packers_14,2014,Green Bay Packers,12/4/2000,Mike McCarthy,Tom Clements,Dom Capers,4-Mar,0,
+Packers_15,2015,Green Bay Packers,10/6/2000,Mike McCarthy,Edgar Bennett,Dom Capers,4-Mar,0,
+Packers_16,2016,Green Bay Packers,10/6/2000,Mike McCarthy,Edgar Bennett,Dom Capers,4-Mar,0,
+Texans_02,2002,Houston Texans,4/12/2000,Dom Capers,Chris Palmer,Vic Fangio,4-Mar,0,
+Texans_03,2003,Houston Texans,5/11/2000,Dom Capers,Chris Palmer,Vic Fangio,4-Mar,0,
+Texans_04,2004,Houston Texans,7/9/2000,Dom Capers,Chris Palmer,Vic Fangio,4-Mar,0,
+Texans_05,2005,Houston Texans,2/14/2000,Dom Capers,"Chris Palmer, Joe Pendry",Vic Fangio,4-Mar,0,
+Texans_06,2006,Houston Texans,6/10/2000,Gary Kubiak,Troy Calhoun,Richard Smith,3-Apr,1,4
+Texans_07,2007,Houston Texans,8/8/2000,Gary Kubiak,Mike Sherman,Richard Smith,3-Apr,0,
+Texans_08,2008,Houston Texans,8/8/2000,Gary Kubiak,Kyle Shanahan,Richard Smith,3-Apr,0,
+Texans_09,2009,Houston Texans,9/7/2000,Gary Kubiak,Kyle Shanahan,Frank Bush,3-Apr,0,
+Texans_10,2010,Houston Texans,6/10/2000,Gary Kubiak,Rick Dennison,Frank Bush,3-Apr,0,
+Texans_11,2011,Houston Texans,10/6/2000,Gary Kubiak,Rick Dennison,Wade Phillips,4-Mar,0,
+Texans_12,2012,Houston Texans,12/4/2000,Gary Kubiak,Rick Dennison,Wade Phillips,4-Mar,0,
+Texans_13,2013,Houston Texans,2/14/2000,Wade Phillips,Rick Dennison,Wade Phillips,4-Mar,1,3
+Texans_14,2014,Houston Texans,9/7/2000,Bill O'Brien,NA,Romeo Crennel,4-Mar,1,4
+Texans_15,2015,Houston Texans,9/7/2000,Bill O'Brien,George Godsey,Romeo Crennel,4-Mar,0,
+Texans_16,2016,Houston Texans,9/7/2000,Bill O'Brien,George Godsey,Romeo Crennel,4-Mar,0,
+Colts_00,2000,Indianapolis Colts,10/6/2000,Jim Mora,Tom Moore,Vic Fangio,3-Apr,0,
+Colts_01,2001,Indianapolis Colts,6/10/2000,Jim Mora,Tom Moore,Vic Fangio,3-Apr,0,
+Colts_02,2002,Indianapolis Colts,10/6/2000,Tony Dungy,Tom Moore,Ron Meeks,3-Apr,1,2
+Colts_03,2003,Indianapolis Colts,12/4/2000,Tony Dungy,Tom Moore,Ron Meeks,3-Apr,0,
+Colts_04,2004,Indianapolis Colts,12/4/2000,Tony Dungy,Tom Moore,Ron Meeks,3-Apr,0,
+Colts_05,2005,Indianapolis Colts,14-2-0,Tony Dungy,Tom Moore,Ron Meeks,3-Apr,0,
+Colts_06,2006,Indianapolis Colts,12/4/2000,Tony Dungy,Tom Moore,Ron Meeks,3-Apr,0,
+Colts_07,2007,Indianapolis Colts,13-3-0,Tony Dungy,Tom Moore,Ron Meeks,3-Apr,0,
+Colts_08,2008,Indianapolis Colts,12/4/2000,Tony Dungy,Tom Moore,Ron Meeks,3-Apr,0,
+Colts_09,2009,Indianapolis Colts,14-2-0,Jim Caldwell,Tom Moore,Larry Coyer,3-Apr,1,4
+Colts_10,2010,Indianapolis Colts,10/6/2000,Jim Caldwell,Clyde Christensen,Larry Coyer,3-Apr,0,
+Colts_11,2011,Indianapolis Colts,2/14/2000,Jim Caldwell,Clyde Christensen,Larry Coyer,3-Apr,0,
+Colts_12,2012,Indianapolis Colts,11/5/2000,Chuck Pagano,Bruce Arians,Greg Manusky,4-Mar,1,3
+Colts_13,2013,Indianapolis Colts,11/5/2000,Chuck Pagano,Pep Hamilton,Greg Manusky,4-Mar,0,
+Colts_14,2014,Indianapolis Colts,11/5/2000,Chuck Pagano,Pep Hamilton,Greg Manusky,4-Mar,0,
+Colts_15,2015,Indianapolis Colts,8/8/2000,Chuck Pagano,"Rob Chudzinski, Pep Hamilton",Greg Manusky,4-Mar,0,
+Colts_16,2016,Indianapolis Colts,8/8/2000,Chuck Pagano,Rob Chudzinski,Ted Monachino,4-Mar,0,
+Jaguars_00,2000,Jacksonville Jaguars,7/9/2000,Tom Coughlin,NA,Dom Capers,3-Apr,0,
+Jaguars_01,2001,Jacksonville Jaguars,6/10/2000,Tom Coughlin,Bobby Petrino,Gary Moeller,3-Apr,0,
+Jaguars_02,2002,Jacksonville Jaguars,6/10/2000,Tom Coughlin,NA,John Pease,3-Apr,0,
+Jaguars_03,2003,Jacksonville Jaguars,5/11/2000,Jack Del Rio,Bill Musgrave,Mike Smith,3-Apr,1,3
+Jaguars_04,2004,Jacksonville Jaguars,9/7/2000,Jack Del Rio,Bill Musgrave,Mike Smith,3-Apr,0,
+Jaguars_05,2005,Jacksonville Jaguars,12/4/2000,Jack Del Rio,Carl Smith,Mike Smith,3-Apr,0,
+Jaguars_06,2006,Jacksonville Jaguars,8/8/2000,Jack Del Rio,Carl Smith,Mike Smith,3-Apr,0,
+Jaguars_07,2007,Jacksonville Jaguars,11/5/2000,Jack Del Rio,Dirk Koetter,Mike Smith,3-Apr,0,
+Jaguars_08,2008,Jacksonville Jaguars,5/11/2000,Jack Del Rio,Dirk Koetter,Gregg Williams,3-Apr,0,
+Jaguars_09,2009,Jacksonville Jaguars,7/9/2000,Jack Del Rio,Dirk Koetter,Mel Tucker,3-Apr,0,
+Jaguars_10,2010,Jacksonville Jaguars,8/8/2000,Jack Del Rio,Dirk Koetter,Mel Tucker,3-Apr,0,
+Jaguars_11,2011,Jacksonville Jaguars,5/11/2000,Mel Tucker,Dirk Koetter,Mel Tucker,3-Apr,0,
+Jaguars_12,2012,Jacksonville Jaguars,2/14/2000,Mike Mularkey,Bob Bratkowski,Mel Tucker,3-Apr,1,4
+Jaguars_13,2013,Jacksonville Jaguars,4/12/2000,Gus Bradley,Jedd Fisch,Bob Babich,3-Apr,1,3
+Jaguars_14,2014,Jacksonville Jaguars,3/13/2000,Gus Bradley,Jedd Fisch,Bob Babich,3-Apr,0,
+Jaguars_15,2015,Jacksonville Jaguars,5/11/2000,Gus Bradley,Greg Olson,Bob Babich,3-Apr,0,
+Jaguars_16,2016,Jacksonville Jaguars,3/13/2000,Doug Marrone,"Nathaniel Hackett, Greg Olson",Todd Wash,3-Apr,1,4
+Chiefs_00,2000,Kansas City Chiefs,7/9/2000,Gunther Cunningham,Jimmy Raye,Kurt Schottenheimer,3-Apr,0,
+Chiefs_01,2001,Kansas City Chiefs,6/10/2000,Dick Vermeil,Al Saunders,Greg Robinson,3-Apr,1,4
+Chiefs_02,2002,Kansas City Chiefs,8/8/2000,Dick Vermeil,Al Saunders,Greg Robinson,3-Apr,0,
+Chiefs_03,2003,Kansas City Chiefs,13-3-0,Dick Vermeil,Al Saunders,Greg Robinson,3-Apr,0,
+Chiefs_04,2004,Kansas City Chiefs,7/9/2000,Dick Vermeil,Al Saunders,Gunther Cunningham,3-Apr,0,
+Chiefs_05,2005,Kansas City Chiefs,10/6/2000,Dick Vermeil,Al Saunders,Gunther Cunningham,3-Apr,0,
+Chiefs_06,2006,Kansas City Chiefs,9/7/2000,Herm Edwards,Mike Solari,Gunther Cunningham,3-Apr,1,3
+Chiefs_07,2007,Kansas City Chiefs,4/12/2000,Herm Edwards,Mike Solari,Gunther Cunningham,3-Apr,0,
+Chiefs_08,2008,Kansas City Chiefs,2/14/2000,Herm Edwards,Chan Gailey,Gunther Cunningham,3-Apr,0,
+Chiefs_09,2009,Kansas City Chiefs,4/12/2000,Todd Haley,Todd Haley,Clancy Pendergast,4-Mar,1,4
+Chiefs_10,2010,Kansas City Chiefs,10/6/2000,Todd Haley,Charlie Weis,Romeo Crennel,4-Mar,0,
+Chiefs_11,2011,Kansas City Chiefs,7/9/2000,Romeo Crennel,Bill Muir,Romeo Crennel,4-Mar,1,3
+Chiefs_12,2012,Kansas City Chiefs,2/14/2000,Romeo Crennel,Brian Daboll,Romeo Crennel,4-Mar,0,
+Chiefs_13,2013,Kansas City Chiefs,11/5/2000,Andy Reid,Doug Pederson,Bob Sutton,4-Mar,1,4
+Chiefs_14,2014,Kansas City Chiefs,9/7/2000,Andy Reid,Doug Pederson,Bob Sutton,4-Mar,0,
+Chiefs_15,2015,Kansas City Chiefs,11/5/2000,Andy Reid,Doug Pederson,Bob Sutton,4-Mar,0,
+Chiefs_16,2016,Kansas City Chiefs,12/4/2000,Andy Reid,Brad Childress,Bob Sutton,4-Mar,0,
+Rams_16,2016,Los Angeles Rams,4/12/2000,John Fassel,Rob Boras,Gregg Williams,3-Apr,0,
+Dolphins_00,2000,Miami Dolphins,11/5/2000,Dave Wannstedt,Chan Gailey,Jim Bates,3-Apr,0,
+Dolphins_01,2001,Miami Dolphins,11/5/2000,Dave Wannstedt,Chan Gailey,Jim Bates,3-Apr,0,
+Dolphins_02,2002,Miami Dolphins,9/7/2000,Dave Wannstedt,Norv Turner,Jim Bates,3-Apr,0,
+Dolphins_03,2003,Miami Dolphins,10/6/2000,Dave Wannstedt,Norv Turner,Jim Bates,3-Apr,0,
+Dolphins_04,2004,Miami Dolphins,4/12/2000,Dave Wannstedt,Chris Foerster,Jim Bates,3-Apr,0,
+Dolphins_05,2005,Miami Dolphins,9/7/2000,Nick Saban,Scott Linehan,Richard Smith,3-Apr,1,2
+Dolphins_06,2006,Miami Dolphins,6/10/2000,Nick Saban,Mike Mularkey,Dom Capers,3-Apr,0,
+Dolphins_07,2007,Miami Dolphins,1/15/2000,Cam Cameron,NA,Dom Capers,3-Apr,1,4
+Dolphins_08,2008,Miami Dolphins,11/5/2000,Tony Sparano,Dan Henning,Paul Pasqualoni,4-Mar,1,1
+Dolphins_09,2009,Miami Dolphins,7/9/2000,Tony Sparano,Dan Henning,Paul Pasqualoni,4-Mar,0,
+Dolphins_10,2010,Miami Dolphins,7/9/2000,Tony Sparano,Dan Henning,Mike Nolan,4-Mar,0,
+Dolphins_11,2011,Miami Dolphins,6/10/2000,Todd Bowles,Brian Daboll,Mike Nolan,4-Mar,1,3
+Dolphins_12,2012,Miami Dolphins,7/9/2000,Joe Philbin,Mike Sherman,Kevin Coyle,3-Apr,1,4
+Dolphins_13,2013,Miami Dolphins,8/8/2000,Joe Philbin,Mike Sherman,Kevin Coyle,3-Apr,0,
+Dolphins_14,2014,Miami Dolphins,8/8/2000,Joe Philbin,Bill Lazor,Kevin Coyle,3-Apr,0,
+Dolphins_15,2015,Miami Dolphins,6/10/2000,Joe Philbin,"Bill Lazor, Zac Taylor","Lou Anarumo, Kevin Coyle",3-Apr,0,
+Dolphins_16,2016,Miami Dolphins,10/6/2000,Adam Gase,Clyde Christensen,Vance Joseph,3-Apr,1,1
+Vikings_00,2000,Minnesota Vikings,11/5/2000,Dennis Green,Sherman Lewis,Emmitt Thomas,3-Apr,0,
+Vikings_01,2001,Minnesota Vikings,5/11/2000,Mike Tice,Sherman Lewis,Emmitt Thomas,3-Apr,1,1
+Vikings_02,2002,Minnesota Vikings,6/10/2000,Mike Tice,Scott Linehan,Willie Shaw,3-Apr,0,
+Vikings_03,2003,Minnesota Vikings,9/7/2000,Mike Tice,Scott Linehan,"[""George O'Leary""]",3-Apr,0,
+Vikings_04,2004,Minnesota Vikings,8/8/2000,Mike Tice,Scott Linehan,Ted Cottrell,3-Apr,0,
+Vikings_05,2005,Minnesota Vikings,9/7/2000,Mike Tice,Steve Loney,Ted Cottrell,3-Apr,0,
+Vikings_06,2006,Minnesota Vikings,6/10/2000,Brad Childress,Darrell Bevell,Mike Tomlin,3-Apr,1,1
+Vikings_07,2007,Minnesota Vikings,8/8/2000,Brad Childress,Darrell Bevell,Leslie Frazier,3-Apr,0,
+Vikings_08,2008,Minnesota Vikings,10/6/2000,Brad Childress,Darrell Bevell,Leslie Frazier,3-Apr,0,
+Vikings_09,2009,Minnesota Vikings,12/4/2000,Brad Childress,Darrell Bevell,Leslie Frazier,3-Apr,0,
+Vikings_10,2010,Minnesota Vikings,6/10/2000,Brad Childress,Darrell Bevell,"Leslie Frazier, Fred Pagac",3-Apr,0,
+Vikings_11,2011,Minnesota Vikings,3/13/2000,Leslie Frazier,Bill Musgrave,Fred Pagac,3-Apr,1,3
+Vikings_12,2012,Minnesota Vikings,10/6/2000,Leslie Frazier,Bill Musgrave,Alan Williams,3-Apr,0,
+Vikings_13,2013,Minnesota Vikings,5/10/2001,Leslie Frazier,Bill Musgrave,Alan Williams,3-Apr,0,
+Vikings_14,2014,Minnesota Vikings,7/9/2000,Mike Zimmer,Norv Turner,George Edwards,3-Apr,1,2
+Vikings_15,2015,Minnesota Vikings,11/5/2000,Mike Zimmer,Norv Turner,George Edwards,3-Apr,0,
+Vikings_16,2016,Minnesota Vikings,8/8/2000,Mike Zimmer,"Pat Shurmur, Norv Turner",George Edwards,3-Apr,0,
+Patriots_00,2000,New England Patriots,5/11/2000,Bill Belichick,Charlie Weis,NA,4-Mar,0,
+Patriots_01,2001,New England Patriots,11/5/2000,Bill Belichick,Charlie Weis,Romeo Crennel,3-Apr,0,
+Patriots_02,2002,New England Patriots,9/7/2000,Bill Belichick,Charlie Weis,Romeo Crennel,3-Apr,0,
+Patriots_03,2003,New England Patriots,14-2-0,Bill Belichick,Charlie Weis,Romeo Crennel,3-Apr,0,
+Patriots_04,2004,New England Patriots,14-2-0,Bill Belichick,Charlie Weis,Romeo Crennel,4-Mar,0,
+Patriots_05,2005,New England Patriots,10/6/2000,Bill Belichick,NA,Eric Mangini,4-Mar,0,
+Patriots_06,2006,New England Patriots,12/4/2000,Bill Belichick,Josh McDaniels,Dean Pees,4-Mar,0,
+Patriots_07,2007,New England Patriots,16-0-0,Bill Belichick,Josh McDaniels,Dean Pees,4-Mar,0,
+Patriots_08,2008,New England Patriots,11/5/2000,Bill Belichick,Josh McDaniels,Dean Pees,4-Mar,0,
+Patriots_09,2009,New England Patriots,10/6/2000,Bill Belichick,NA,Dean Pees,4-Mar,0,
+Patriots_10,2010,New England Patriots,14-2-0,Bill Belichick,NA,NA,4-Mar,0,
+Patriots_11,2011,New England Patriots,13-3-0,Bill Belichick,"[""Bill O'Brien""]",NA,3-Apr,0,
+Patriots_12,2012,New England Patriots,12/4/2000,Bill Belichick,Josh McDaniels,Matt Patricia,3-Apr,0,
+Patriots_13,2013,New England Patriots,12/4/2000,Bill Belichick,Josh McDaniels,Matt Patricia,3-Apr,0,
+Patriots_14,2014,New England Patriots,12/4/2000,Bill Belichick,Josh McDaniels,Matt Patricia,3-Apr,0,
+Patriots_15,2015,New England Patriots,12/4/2000,Bill Belichick,Josh McDaniels,Matt Patricia,3-Apr,0,
+Patriots_16,2016,New England Patriots,14-2-0,Bill Belichick,Josh McDaniels,Matt Patricia,3-Apr,0,
+Saints_00,2000,New Orleans Saints,10/6/2000,Jim Haslett,Mike McCarthy,Ron Zook,3-Apr,0,
+Saints_01,2001,New Orleans Saints,7/9/2000,Jim Haslett,Mike McCarthy,Ron Zook,3-Apr,0,
+Saints_02,2002,New Orleans Saints,9/7/2000,Jim Haslett,Mike McCarthy,Rick Venturi,3-Apr,0,
+Saints_03,2003,New Orleans Saints,8/8/2000,Jim Haslett,Mike McCarthy,Rick Venturi,3-Apr,0,
+Saints_04,2004,New Orleans Saints,8/8/2000,Jim Haslett,Mike McCarthy,Rick Venturi,3-Apr,0,
+Saints_05,2005,New Orleans Saints,3/13/2000,Jim Haslett,Mike Sheppard,Rick Venturi,3-Apr,0,
+Saints_06,2006,New Orleans Saints,10/6/2000,Sean Payton,Doug Marrone,Gary Gibbs,3-Apr,1,4
+Saints_07,2007,New Orleans Saints,7/9/2000,Sean Payton,Doug Marrone,Gary Gibbs,3-Apr,0,
+Saints_08,2008,New Orleans Saints,8/8/2000,Sean Payton,Doug Marrone,Gary Gibbs,3-Apr,0,
+Saints_09,2009,New Orleans Saints,13-3-0,Sean Payton,Pete Carmichael,Gregg Williams,3-Apr,0,
+Saints_10,2010,New Orleans Saints,11/5/2000,Sean Payton,Pete Carmichael,Gregg Williams,3-Apr,0,
+Saints_11,2011,New Orleans Saints,13-3-0,Sean Payton,Pete Carmichael,Gregg Williams,3-Apr,0,
+Saints_12,2012,New Orleans Saints,7/9/2000,Aaron Kromer,Pete Carmichael,Steve Spagnuolo,3-Apr,0,
+Saints_13,2013,New Orleans Saints,11/5/2000,Sean Payton,Pete Carmichael,Rob Ryan,4-Mar,0,
+Saints_14,2014,New Orleans Saints,7/9/2000,Sean Payton,Pete Carmichael,Rob Ryan,4-Mar,0,
+Saints_15,2015,New Orleans Saints,7/9/2000,Sean Payton,Pete Carmichael,"Dennis Allen, Rob Ryan",3-Apr,0,
+Saints_16,2016,New Orleans Saints,7/9/2000,Sean Payton,Pete Carmichael,Dennis Allen,3-Apr,0,
+Giants_00,2000,New York Giants,12/4/2000,Jim Fassel,Sean Payton,John Fox,3-Apr,0,
+Giants_01,2001,New York Giants,7/9/2000,Jim Fassel,Sean Payton,John Fox,3-Apr,0,
+Giants_02,2002,New York Giants,10/6/2000,Jim Fassel,Sean Payton,Johnny Lynn,3-Apr,0,
+Giants_03,2003,New York Giants,4/12/2000,Jim Fassel,NA,Johnny Lynn,3-Apr,0,
+Giants_04,2004,New York Giants,6/10/2000,Tom Coughlin,John Hufnagel,Tim Lewis,3-Apr,1,1
+Giants_05,2005,New York Giants,11/5/2000,Tom Coughlin,John Hufnagel,Tim Lewis,3-Apr,0,
+Giants_06,2006,New York Giants,8/8/2000,Tom Coughlin,John Hufnagel,Tim Lewis,3-Apr,0,
+Giants_07,2007,New York Giants,10/6/2000,Tom Coughlin,Kevin Gilbride,Steve Spagnuolo,3-Apr,0,
+Giants_08,2008,New York Giants,12/4/2000,Tom Coughlin,Kevin Gilbride,Steve Spagnuolo,3-Apr,0,
+Giants_09,2009,New York Giants,8/8/2000,Tom Coughlin,Kevin Gilbride,Bill Sheridan,3-Apr,0,
+Giants_10,2010,New York Giants,10/6/2000,Tom Coughlin,Kevin Gilbride,Perry Fewell,3-Apr,0,
+Giants_11,2011,New York Giants,9/7/2000,Tom Coughlin,Kevin Gilbride,Perry Fewell,3-Apr,0,
+Giants_12,2012,New York Giants,9/7/2000,Tom Coughlin,Kevin Gilbride,Perry Fewell,3-Apr,0,
+Giants_13,2013,New York Giants,7/9/2000,Tom Coughlin,Kevin Gilbride,Perry Fewell,3-Apr,0,
+Giants_14,2014,New York Giants,6/10/2000,Tom Coughlin,Ben McAdoo,Perry Fewell,3-Apr,0,
+Giants_15,2015,New York Giants,6/10/2000,Tom Coughlin,Ben McAdoo,Steve Spagnuolo,3-Apr,0,
+Giants_16,2016,New York Giants,11/5/2000,Ben McAdoo,Mike Sullivan,Steve Spagnuolo,3-Apr,1,1
+Jets_00,2000,New York Jets,9/7/2000,Al Groh,Dan Henning,Mike Nolan,4-Mar,0,
+Jets_01,2001,New York Jets,10/6/2000,Herm Edwards,Paul Hackett,Ted Cottrell,3-Apr,1,2
+Jets_02,2002,New York Jets,9/7/2000,Herm Edwards,Paul Hackett,Ted Cottrell,3-Apr,0,
+Jets_03,2003,New York Jets,6/10/2000,Herm Edwards,Paul Hackett,Ted Cottrell,3-Apr,0,
+Jets_04,2004,New York Jets,10/6/2000,Herm Edwards,Paul Hackett,Donnie Henderson,3-Apr,0,
+Jets_05,2005,New York Jets,4/12/2000,Herm Edwards,Mike Heimerdinger,Donnie Henderson,3-Apr,0,
+Jets_06,2006,New York Jets,10/6/2000,Eric Mangini,Brian Schottenheimer,Bob Sutton,3-Apr,1,4
+Jets_07,2007,New York Jets,4/12/2000,Eric Mangini,Brian Schottenheimer,Bob Sutton,4-Mar,0,
+Jets_08,2008,New York Jets,9/7/2000,Eric Mangini,Brian Schottenheimer,Bob Sutton,4-Mar,0,
+Jets_09,2009,New York Jets,9/7/2000,Rex Ryan,Brian Schottenheimer,Mike Pettine,4-Mar,1,3
+Jets_10,2010,New York Jets,11/5/2000,Rex Ryan,Brian Schottenheimer,Mike Pettine,4-Mar,0,
+Jets_11,2011,New York Jets,8/8/2000,Rex Ryan,Brian Schottenheimer,Mike Pettine,4-Mar,0,
+Jets_12,2012,New York Jets,6/10/2000,Rex Ryan,Tony Sparano,Mike Pettine,4-Mar,0,
+Jets_13,2013,New York Jets,8/8/2000,Rex Ryan,Marty Mornhinweg,Dennis Thurman,4-Mar,0,
+Jets_14,2014,New York Jets,4/12/2000,Rex Ryan,Marty Mornhinweg,Dennis Thurman,4-Mar,0,
+Jets_15,2015,New York Jets,10/6/2000,Todd Bowles,Chan Gailey,Kacy Rodgers,4-Mar,1,2
+Jets_16,2016,New York Jets,5/11/2000,Todd Bowles,Chan Gailey,Kacy Rodgers,4-Mar,0,
+Raiders_00,2000,Oakland Raiders,12/4/2000,Jon Gruden,Bill Callahan,Chuck Bresnahan,3-Apr,0,
+Raiders_01,2001,Oakland Raiders,10/6/2000,Jon Gruden,Bill Callahan,Chuck Bresnahan,3-Apr,0,
+Raiders_02,2002,Oakland Raiders,11/5/2000,Bill Callahan,Marc Trestman,Chuck Bresnahan,3-Apr,1,1
+Raiders_03,2003,Oakland Raiders,4/12/2000,Bill Callahan,Marc Trestman,Chuck Bresnahan,3-Apr,0,
+Raiders_04,2004,Oakland Raiders,5/11/2000,Norv Turner,Jimmy Raye,Rob Ryan,3-Apr,1,1
+Raiders_05,2005,Oakland Raiders,4/12/2000,Norv Turner,Jimmy Raye,Rob Ryan,4-Mar,0,
+Raiders_06,2006,Oakland Raiders,2/14/2000,Art Shell,"John Shoop, Tom Walsh",Rob Ryan,3-Apr,1,1
+Raiders_07,2007,Oakland Raiders,4/12/2000,Lane Kiffin,Greg Knapp,Rob Ryan,3-Apr,1,1
+Raiders_08,2008,Oakland Raiders,5/11/2000,Lane Kiffin,Greg Knapp,Rob Ryan,3-Apr,0,
+Raiders_09,2009,Oakland Raiders,5/11/2000,Tom Cable,NA,John Marshall,3-Apr,1,1
+Raiders_10,2010,Oakland Raiders,8/8/2000,Tom Cable,Hue Jackson,John Marshall,3-Apr,0,
+Raiders_11,2011,Oakland Raiders,8/8/2000,Hue Jackson,Al Saunders,Chuck Bresnahan,3-Apr,1,1
+Raiders_12,2012,Oakland Raiders,4/12/2000,Dennis Allen,Greg Knapp,Jason Tarver,3-Apr,1,3
+Raiders_13,2013,Oakland Raiders,4/12/2000,Dennis Allen,Greg Olson,Jason Tarver,3-Apr,0,
+Raiders_14,2014,Oakland Raiders,3/13/2000,Dennis Allen,Greg Olson,Jason Tarver,3-Apr,0,
+Raiders_15,2015,Oakland Raiders,7/9/2000,Jack Del Rio,Bill Musgrave,Ken Norton,3-Apr,1,2
+Raiders_16,2016,Oakland Raiders,12/4/2000,Jack Del Rio,Bill Musgrave,Ken Norton,3-Apr,0,
+Eagles_00,2000,Philadelphia Eagles,11/5/2000,Andy Reid,Rod Dowhower,Jim Johnson,3-Apr,0,
+Eagles_01,2001,Philadelphia Eagles,11/5/2000,Andy Reid,Rod Dowhower,Jim Johnson,3-Apr,0,
+Eagles_02,2002,Philadelphia Eagles,12/4/2000,Andy Reid,Brad Childress,Jim Johnson,3-Apr,0,
+Eagles_03,2003,Philadelphia Eagles,12/4/2000,Andy Reid,Brad Childress,Jim Johnson,3-Apr,0,
+Eagles_04,2004,Philadelphia Eagles,13-3-0,Andy Reid,Brad Childress,Jim Johnson,3-Apr,0,
+Eagles_05,2005,Philadelphia Eagles,6/10/2000,Andy Reid,Brad Childress,Jim Johnson,3-Apr,0,
+Eagles_06,2006,Philadelphia Eagles,10/6/2000,Andy Reid,Marty Mornhinweg,Jim Johnson,3-Apr,0,
+Eagles_07,2007,Philadelphia Eagles,8/8/2000,Andy Reid,Marty Mornhinweg,Jim Johnson,3-Apr,0,
+Eagles_08,2008,Philadelphia Eagles,9/6/2001,Andy Reid,Marty Mornhinweg,Jim Johnson,3-Apr,0,
+Eagles_09,2009,Philadelphia Eagles,11/5/2000,Andy Reid,Marty Mornhinweg,Sean McDermott,3-Apr,0,
+Eagles_10,2010,Philadelphia Eagles,10/6/2000,Andy Reid,Marty Mornhinweg,Sean McDermott,3-Apr,0,
+Eagles_11,2011,Philadelphia Eagles,8/8/2000,Andy Reid,Marty Mornhinweg,Juan Castillo,3-Apr,0,
+Eagles_12,2012,Philadelphia Eagles,4/12/2000,Andy Reid,Marty Mornhinweg,"Todd Bowles, Juan Castillo",3-Apr,0,
+Eagles_13,2013,Philadelphia Eagles,10/6/2000,Chip Kelly,Pat Shurmur,Bill Davis,4-Mar,1,1
+Eagles_14,2014,Philadelphia Eagles,10/6/2000,Chip Kelly,Pat Shurmur,Bill Davis,4-Mar,0,
+Eagles_15,2015,Philadelphia Eagles,7/9/2000,Pat Shurmur,Pat Shurmur,Bill Davis,4-Mar,0,
+Eagles_16,2016,Philadelphia Eagles,7/9/2000,Doug Pederson,Frank Reich,Jim Schwartz,3-Apr,1,1
+Steelers_00,2000,Pittsburgh Steelers,9/7/2000,Bill Cowher,Kevin Gilbride,Tim Lewis,4-Mar,0,
+Steelers_01,2001,Pittsburgh Steelers,13-3-0,Bill Cowher,Mike Mularkey,Tim Lewis,4-Mar,0,
+Steelers_02,2002,Pittsburgh Steelers,10/5/2001,Bill Cowher,Mike Mularkey,Tim Lewis,4-Mar,0,
+Steelers_03,2003,Pittsburgh Steelers,6/10/2000,Bill Cowher,Mike Mularkey,Tim Lewis,4-Mar,0,
+Steelers_04,2004,Pittsburgh Steelers,15-1-0,Bill Cowher,Ken Whisenhunt,Dick LeBeau,4-Mar,0,
+Steelers_05,2005,Pittsburgh Steelers,11/5/2000,Bill Cowher,Ken Whisenhunt,Dick LeBeau,4-Mar,0,
+Steelers_06,2006,Pittsburgh Steelers,8/8/2000,Bill Cowher,Ken Whisenhunt,Dick LeBeau,4-Mar,0,
+Steelers_07,2007,Pittsburgh Steelers,10/6/2000,Mike Tomlin,Bruce Arians,Dick LeBeau,4-Mar,1,2
+Steelers_08,2008,Pittsburgh Steelers,12/4/2000,Mike Tomlin,Bruce Arians,Dick LeBeau,4-Mar,0,
+Steelers_09,2009,Pittsburgh Steelers,9/7/2000,Mike Tomlin,Bruce Arians,Dick LeBeau,4-Mar,0,
+Steelers_10,2010,Pittsburgh Steelers,12/4/2000,Mike Tomlin,Bruce Arians,Dick LeBeau,4-Mar,0,
+Steelers_11,2011,Pittsburgh Steelers,12/4/2000,Mike Tomlin,Bruce Arians,Dick LeBeau,4-Mar,0,
+Steelers_12,2012,Pittsburgh Steelers,8/8/2000,Mike Tomlin,Todd Haley,Dick LeBeau,4-Mar,0,
+Steelers_13,2013,Pittsburgh Steelers,8/8/2000,Mike Tomlin,Todd Haley,Dick LeBeau,4-Mar,0,
+Steelers_14,2014,Pittsburgh Steelers,11/5/2000,Mike Tomlin,Todd Haley,Dick LeBeau,4-Mar,0,
+Steelers_15,2015,Pittsburgh Steelers,10/6/2000,Mike Tomlin,Todd Haley,Keith Butler,4-Mar,0,
+Steelers_16,2016,Pittsburgh Steelers,11/5/2000,Mike Tomlin,Todd Haley,Keith Butler,4-Mar,0,
+Chargers_00,2000,San Diego Chargers,1/15/2000,Mike Riley,Geep Chryst,Joe Pascale,3-Apr,0,
+Chargers_01,2001,San Diego Chargers,5/11/2000,Mike Riley,Norv Turner,"Mark Banker, Joe Pascale, Jim Vechiarella",3-Apr,0,
+Chargers_02,2002,San Diego Chargers,8/8/2000,Marty Schottenheimer,Cam Cameron,Dale Lindsey,3-Apr,1,3
+Chargers_03,2003,San Diego Chargers,4/12/2000,Marty Schottenheimer,Cam Cameron,Dale Lindsey,3-Apr,0,
+Chargers_04,2004,San Diego Chargers,12/4/2000,Marty Schottenheimer,Cam Cameron,Wade Phillips,4-Mar,0,
+Chargers_05,2005,San Diego Chargers,9/7/2000,Marty Schottenheimer,Cam Cameron,Wade Phillips,4-Mar,0,
+Chargers_06,2006,San Diego Chargers,14-2-0,Marty Schottenheimer,Cam Cameron,Wade Phillips,4-Mar,0,
+Chargers_07,2007,San Diego Chargers,11/5/2000,Norv Turner,Clarence Shelmon,Ted Cottrell,4-Mar,1,4
+Chargers_08,2008,San Diego Chargers,8/8/2000,Norv Turner,Clarence Shelmon,"Ted Cottrell, Ron Rivera",4-Mar,0,
+Chargers_09,2009,San Diego Chargers,13-3-0,Norv Turner,Clarence Shelmon,Ron Rivera,4-Mar,0,
+Chargers_10,2010,San Diego Chargers,9/7/2000,Norv Turner,Clarence Shelmon,Ron Rivera,4-Mar,0,
+Chargers_11,2011,San Diego Chargers,8/8/2000,Norv Turner,Clarence Shelmon,Greg Manusky,4-Mar,0,
+Chargers_12,2012,San Diego Chargers,7/9/2000,Norv Turner,Hal Hunter,John Pagano,4-Mar,0,
+Chargers_13,2013,San Diego Chargers,9/7/2000,Mike McCoy,Ken Whisenhunt,John Pagano,4-Mar,1,1
+Chargers_14,2014,San Diego Chargers,9/7/2000,Mike McCoy,Frank Reich,John Pagano,4-Mar,0,
+Chargers_15,2015,San Diego Chargers,4/12/2000,Mike McCoy,Frank Reich,John Pagano,4-Mar,0,
+Chargers_16,2016,San Diego Chargers,5/11/2000,Mike McCoy,Ken Whisenhunt,John Pagano,4-Mar,0,
+49ers_00,2000,San Francisco 49ers,6/10/2000,Steve Mariucci,Marty Mornhinweg,Jim Mora,3-Apr,0,
+49ers_01,2001,San Francisco 49ers,12/4/2000,Steve Mariucci,Greg Knapp,Jim Mora,3-Apr,0,
+49ers_02,2002,San Francisco 49ers,10/6/2000,Steve Mariucci,Greg Knapp,Jim Mora,3-Apr,0,
+49ers_03,2003,San Francisco 49ers,7/9/2000,Dennis Erickson,Greg Knapp,Jim Mora,3-Apr,1,1
+49ers_04,2004,San Francisco 49ers,2/14/2000,Dennis Erickson,Ted Tollner,Willy Robinson,3-Apr,0,
+49ers_05,2005,San Francisco 49ers,4/12/2000,Mike Nolan,Mike McCarthy,Bill Davis,4-Mar,1,3
+49ers_06,2006,San Francisco 49ers,7/9/2000,Mike Nolan,Norv Turner,Bill Davis,3-Apr,0,
+49ers_07,2007,San Francisco 49ers,5/11/2000,Mike Nolan,Jim Hostler,Greg Manusky,4-Mar,0,
+49ers_08,2008,San Francisco 49ers,7/9/2000,Mike Nolan,Mike Martz,Greg Manusky,4-Mar,0,
+49ers_09,2009,San Francisco 49ers,8/8/2000,Mike Singletary,Jimmy Raye,Greg Manusky,4-Mar,1,2
+49ers_10,2010,San Francisco 49ers,6/10/2000,Jim Tomsula,Jimmy Raye,Greg Manusky,4-Mar,1,2
+49ers_11,2011,San Francisco 49ers,13-3-0,Jim Harbaugh,Greg Roman,Vic Fangio,4-Mar,1,4
+49ers_12,2012,San Francisco 49ers,11/4/2001,Jim Harbaugh,Greg Roman,Vic Fangio,4-Mar,0,
+49ers_13,2013,San Francisco 49ers,12/4/2000,Jim Harbaugh,Greg Roman,Vic Fangio,4-Mar,0,
+49ers_14,2014,San Francisco 49ers,8/8/2000,Jim Harbaugh,Greg Roman,Vic Fangio,4-Mar,0,
+49ers_15,2015,San Francisco 49ers,5/11/2000,Jim Tomsula,Geep Chryst,Eric Mangini,4-Mar,1,3
+49ers_16,2016,San Francisco 49ers,2/14/2000,Chip Kelly,Curtis Modkins,"[""Jim O'Neil""]",4-Mar,1,4
+Seahawks_00,2000,Seattle Seahawks,6/10/2000,Mike Holmgren,Gil Haskell,Steve Sidwell,3-Apr,0,
+Seahawks_01,2001,Seattle Seahawks,9/7/2000,Mike Holmgren,Gil Haskell,Steve Sidwell,3-Apr,0,
+Seahawks_02,2002,Seattle Seahawks,7/9/2000,Mike Holmgren,Gil Haskell,Steve Sidwell,3-Apr,0,
+Seahawks_03,2003,Seattle Seahawks,10/6/2000,Mike Holmgren,Gil Haskell,Ray Rhodes,3-Apr,0,
+Seahawks_04,2004,Seattle Seahawks,9/7/2000,Mike Holmgren,Gil Haskell,Ray Rhodes,3-Apr,0,
+Seahawks_05,2005,Seattle Seahawks,13-3-0,Mike Holmgren,Gil Haskell,"John Marshall, Ray Rhodes",3-Apr,0,
+Seahawks_06,2006,Seattle Seahawks,9/7/2000,Mike Holmgren,Gil Haskell,John Marshall,3-Apr,0,
+Seahawks_07,2007,Seattle Seahawks,10/6/2000,Mike Holmgren,Gil Haskell,John Marshall,3-Apr,0,
+Seahawks_08,2008,Seattle Seahawks,4/12/2000,Mike Holmgren,Gil Haskell,John Marshall,3-Apr,0,
+Seahawks_09,2009,Seattle Seahawks,5/11/2000,Jim Mora,Greg Knapp,Gus Bradley,3-Apr,1,3
+Seahawks_10,2010,Seattle Seahawks,7/9/2000,Pete Carroll,Jeremy Bates,Gus Bradley,3-Apr,1,2
+Seahawks_11,2011,Seattle Seahawks,7/9/2000,Pete Carroll,Darrell Bevell,Gus Bradley,3-Apr,0,
+Seahawks_12,2012,Seattle Seahawks,11/5/2000,Pete Carroll,Darrell Bevell,Gus Bradley,3-Apr,0,
+Seahawks_13,2013,Seattle Seahawks,13-3-0,Pete Carroll,Darrell Bevell,Dan Quinn,3-Apr,0,
+Seahawks_14,2014,Seattle Seahawks,12/4/2000,Pete Carroll,Darrell Bevell,Dan Quinn,3-Apr,0,
+Seahawks_15,2015,Seattle Seahawks,10/6/2000,Pete Carroll,Darrell Bevell,Kris Richard,3-Apr,0,
+Seahawks_16,2016,Seattle Seahawks,10/5/2001,Pete Carroll,Darrell Bevell,Kris Richard,3-Apr,0,
+Rams_00,2000,St. Louis Rams,10/6/2000,Mike Martz,Bobby Jackson,Peter Giunta,3-Apr,0,
+Rams_01,2001,St. Louis Rams,14-2-0,Mike Martz,Bobby Jackson,Lovie Smith,3-Apr,0,
+Rams_02,2002,St. Louis Rams,7/9/2000,Mike Martz,Bobby Jackson,Lovie Smith,3-Apr,0,
+Rams_03,2003,St. Louis Rams,12/4/2000,Mike Martz,Steve Fairchild,Lovie Smith,3-Apr,0,
+Rams_04,2004,St. Louis Rams,8/8/2000,Mike Martz,Steve Fairchild,Larry Marmie,3-Apr,0,
+Rams_05,2005,St. Louis Rams,6/10/2000,Mike Martz,Steve Fairchild,Larry Marmie,3-Apr,0,
+Rams_06,2006,St. Louis Rams,8/8/2000,Scott Linehan,Greg Olson,Jim Haslett,3-Apr,1,1
+Rams_07,2007,St. Louis Rams,3/13/2000,Scott Linehan,Greg Olson,Jim Haslett,3-Apr,0,
+Rams_08,2008,St. Louis Rams,2/14/2000,Scott Linehan,Al Saunders,"Jim Haslett, Rick Venturi",3-Apr,0,
+Rams_09,2009,St. Louis Rams,1/15/2000,Steve Spagnuolo,Pat Shurmur,Ken Flajole,3-Apr,1,3
+Rams_10,2010,St. Louis Rams,7/9/2000,Steve Spagnuolo,Pat Shurmur,Ken Flajole,3-Apr,0,
+Rams_11,2011,St. Louis Rams,2/14/2000,Steve Spagnuolo,Josh McDaniels,Ken Flajole,3-Apr,0,
+Rams_12,2012,St. Louis Rams,7/8/2001,Jeff Fisher,Brian Schottenheimer,NA,3-Apr,1,2
+Rams_13,2013,St. Louis Rams,7/9/2000,Jeff Fisher,Brian Schottenheimer,Tim Walton,3-Apr,0,
+Rams_14,2014,St. Louis Rams,6/10/2000,Jeff Fisher,Brian Schottenheimer,Gregg Williams,3-Apr,0,
+Rams_15,2015,St. Louis Rams,7/9/2000,Jeff Fisher,"Rob Boras, Frank Cignetti",Gregg Williams,3-Apr,0,
+Buccaneers_00,2000,Tampa Bay Buccaneers,10/6/2000,Tony Dungy,Les Steckel,Monte Kiffin,3-Apr,0,
+Buccaneers_01,2001,Tampa Bay Buccaneers,9/7/2000,Tony Dungy,Clyde Christensen,Monte Kiffin,3-Apr,0,
+Buccaneers_02,2002,Tampa Bay Buccaneers,12/4/2000,Jon Gruden,Bill Muir,Monte Kiffin,3-Apr,1,4
+Buccaneers_03,2003,Tampa Bay Buccaneers,7/9/2000,Jon Gruden,Bill Muir,Monte Kiffin,3-Apr,0,
+Buccaneers_04,2004,Tampa Bay Buccaneers,5/11/2000,Jon Gruden,Bill Muir,Monte Kiffin,3-Apr,0,
+Buccaneers_05,2005,Tampa Bay Buccaneers,11/5/2000,Jon Gruden,Bill Muir,Monte Kiffin,3-Apr,0,
+Buccaneers_06,2006,Tampa Bay Buccaneers,4/12/2000,Jon Gruden,Bill Muir,Monte Kiffin,3-Apr,0,
+Buccaneers_07,2007,Tampa Bay Buccaneers,9/7/2000,Jon Gruden,Bill Muir,Monte Kiffin,3-Apr,0,
+Buccaneers_08,2008,Tampa Bay Buccaneers,9/7/2000,Jon Gruden,Bill Muir,Monte Kiffin,3-Apr,0,
+Buccaneers_09,2009,Tampa Bay Buccaneers,3/13/2000,Raheem Morris,Greg Olson,Raheem Morris,3-Apr,1,3
+Buccaneers_10,2010,Tampa Bay Buccaneers,10/6/2000,Raheem Morris,Greg Olson,Raheem Morris,3-Apr,0,
+Buccaneers_11,2011,Tampa Bay Buccaneers,4/12/2000,Raheem Morris,Greg Olson,Keith Millard,3-Apr,0,
+Buccaneers_12,2012,Tampa Bay Buccaneers,7/9/2000,Greg Schiano,Mike Sullivan,Bill Sheridan,3-Apr,1,2
+Buccaneers_13,2013,Tampa Bay Buccaneers,4/12/2000,Greg Schiano,Mike Sullivan,Bill Sheridan,3-Apr,0,
+Buccaneers_14,2014,Tampa Bay Buccaneers,2/14/2000,Lovie Smith,Jeff Tedford,Leslie Frazier,3-Apr,1,2
+Buccaneers_15,2015,Tampa Bay Buccaneers,6/10/2000,Lovie Smith,Dirk Koetter,Leslie Frazier,3-Apr,0,
+Buccaneers_16,2016,Tampa Bay Buccaneers,9/7/2000,Dirk Koetter,Todd Monken,Mike Smith,3-Apr,1,4
+Titans_00,2000,Tennessee Titans,13-3-0,Jeff Fisher,Mike Heimerdinger,Gregg Williams,3-Apr,0,
+Titans_01,2001,Tennessee Titans,7/9/2000,Jeff Fisher,Mike Heimerdinger,Jim Schwartz,3-Apr,0,
+Titans_02,2002,Tennessee Titans,11/5/2000,Jeff Fisher,Mike Heimerdinger,Jim Schwartz,3-Apr,0,
+Titans_03,2003,Tennessee Titans,12/4/2000,Jeff Fisher,Mike Heimerdinger,Jim Schwartz,3-Apr,0,
+Titans_04,2004,Tennessee Titans,5/11/2000,Jeff Fisher,Mike Heimerdinger,Jim Schwartz,3-Apr,0,
+Titans_05,2005,Tennessee Titans,4/12/2000,Jeff Fisher,Norm Chow,Jim Schwartz,3-Apr,0,
+Titans_06,2006,Tennessee Titans,8/8/2000,Jeff Fisher,Norm Chow,Jim Schwartz,3-Apr,0,
+Titans_07,2007,Tennessee Titans,10/6/2000,Jeff Fisher,Norm Chow,Jim Schwartz,3-Apr,0,
+Titans_08,2008,Tennessee Titans,13-3-0,Jeff Fisher,Mike Heimerdinger,Jim Schwartz,3-Apr,0,
+Titans_09,2009,Tennessee Titans,8/8/2000,Jeff Fisher,Mike Heimerdinger,Chuck Cecil,3-Apr,0,
+Titans_10,2010,Tennessee Titans,6/10/2000,Jeff Fisher,Mike Heimerdinger,Chuck Cecil,3-Apr,0,
+Titans_11,2011,Tennessee Titans,9/7/2000,Mike Munchak,Chris Palmer,Jerry Gray,3-Apr,1,4
+Titans_12,2012,Tennessee Titans,6/10/2000,Mike Munchak,Chris Palmer,Jerry Gray,3-Apr,0,
+Titans_13,2013,Tennessee Titans,7/9/2000,Mike Munchak,Dowell Loggains,Jerry Gray,3-Apr,0,
+Titans_14,2014,Tennessee Titans,2/14/2000,Ken Whisenhunt,Jason Michael,Ray Horton,4-Mar,1,1
+Titans_15,2015,Tennessee Titans,3/13/2000,Ken Whisenhunt,Jason Michael,Ray Horton,4-Mar,0,
+Titans_16,2016,Tennessee Titans,9/7/2000,Mike Mularkey,Terry Robiskie,Dick LeBeau,4-Mar,1,1
+Redskins_00,2000,Washington Redskins,8/8/2000,Terry Robiskie,NA,Ray Rhodes,3-Apr,0,
+Redskins_01,2001,Washington Redskins,8/8/2000,Marty Schottenheimer,Jimmy Raye,Kurt Schottenheimer,3-Apr,1,3
+Redskins_02,2002,Washington Redskins,7/9/2000,Steve Spurrier,NA,Marvin Lewis,3-Apr,1,4
+Redskins_03,2003,Washington Redskins,5/11/2000,Steve Spurrier,Hue Jackson,George Edwards,3-Apr,0,
+Redskins_04,2004,Washington Redskins,6/10/2000,Joe Gibbs,Don Breaux,Gregg Williams,3-Apr,1,1
+Redskins_05,2005,Washington Redskins,10/6/2000,Joe Gibbs,Don Breaux,Gregg Williams,3-Apr,0,
+Redskins_06,2006,Washington Redskins,5/11/2000,Joe Gibbs,"Don Breaux, Al Saunders",Gregg Williams,3-Apr,0,
+Redskins_07,2007,Washington Redskins,9/7/2000,Joe Gibbs,"Don Breaux, Al Saunders",Gregg Williams,3-Apr,0,
+Redskins_08,2008,Washington Redskins,8/8/2000,Jim Zorn,Sherman Smith,Greg Blache,3-Apr,1,1
+Redskins_09,2009,Washington Redskins,4/12/2000,Jim Zorn,Sherman Smith,Greg Blache,3-Apr,0,
+Redskins_10,2010,Washington Redskins,6/10/2000,Mike Shanahan,Kyle Shanahan,Jim Haslett,4-Mar,1,1
+Redskins_11,2011,Washington Redskins,5/11/2000,Mike Shanahan,Kyle Shanahan,Jim Haslett,3/4/,0,
+Redskins_12,2012,Washington Redskins,10/6/2000,Mike Shanahan,Kyle Shanahan,Jim Haslett,4-Mar,0,
+Redskins_13,2013,Washington Redskins,3/13/2000,Mike Shanahan,Kyle Shanahan,Jim Haslett,4-Mar,0,
+Redskins_14,2014,Washington Redskins,4/12/2000,Jay Gruden,Sean McVay,Jim Haslett,4-Mar,1,1
+Redskins_15,2015,Washington Redskins,9/7/2000,Jay Gruden,Sean McVay,Joe Barry,4-Mar,0,
+Redskins_16,2016,Washington Redskins,8/7/2001,Jay Gruden,Sean McVay,Joe Barry,4-Mar,0,

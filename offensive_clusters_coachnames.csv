@@ -1,0 +1,543 @@
+,team_id,clustering_byPassAtt,clustering_byPassComp,clustering_noPassYds,year,head_coach,off_coord,def_coord,binary,trans_id
+0,ARI_00,1,1,1,2000,Dave McGinnis,Marc Trestman,"Larry Marmie, Dave McGinnis",0,
+1,ARI_01,1,2,2,2001,Dave McGinnis,Rich Olson,Larry Marmie,0,
+2,ARI_02,1,1,1,2002,Dave McGinnis,Rich Olson,Larry Marmie,0,
+3,ARI_03,1,2,2,2003,Dave McGinnis,Jerry Sullivan,Larry Marmie,0,
+4,ARI_04,1,1,1,2004,Dennis Green,Alex Wood,Clancy Pendergast,1,4.0
+5,ARI_05,2,1,1,2005,Dennis Green,Keith Rowen,Clancy Pendergast,0,
+6,ARI_06,3,2,2,2006,Dennis Green,"Mike Kruczek, Keith Rowen",Clancy Pendergast,0,
+7,ARI_07,3,2,2,2007,Ken Whisenhunt,Todd Haley,Clancy Pendergast,1,1.0
+8,ARI_08,3,3,2,2008,Ken Whisenhunt,Todd Haley,Clancy Pendergast,0,
+9,ARI_09,3,2,2,2009,Ken Whisenhunt,,Bill Davis,0,
+10,ARI_10,2,3,3,2010,Ken Whisenhunt,,Bill Davis,0,
+11,ARI_11,2,3,3,2011,Ken Whisenhunt,Mike Miller,Ray Horton,0,
+12,ARI_12,2,3,3,2012,Ken Whisenhunt,Mike Miller,Ray Horton,0,
+13,ARI_13,3,2,2,2013,Bruce Arians,Harold Goodwin,Todd Bowles,1,1.0
+14,ARI_14,2,3,2,2014,Bruce Arians,Harold Goodwin,Todd Bowles,0,
+15,ARI_15,3,2,2,2015,Bruce Arians,Harold Goodwin,James Bettcher,0,
+16,ARI_16,2,3,3,2016,Bruce Arians,Harold Goodwin,James Bettcher,0,
+17,ATL_00,4,1,1,2000,Dan Reeves,George Sefcik,Rich Brooks,0,
+18,ATL_01,4,4,1,2001,Dan Reeves,George Sefcik,Don Blackmon,0,
+19,ATL_02,4,4,4,2002,Dan Reeves,,Wade Phillips,0,
+20,ATL_03,1,1,1,2003,Wade Phillips,Pete Mangurian,Wade Phillips,1,3.0
+21,ATL_04,4,4,4,2004,Jim Mora,Greg Knapp,Ed Donatell,1,2.0
+22,ATL_05,1,4,4,2005,Jim Mora,Greg Knapp,Ed Donatell,0,
+23,ATL_06,1,2,4,2006,Jim Mora,Greg Knapp,Ed Donatell,0,
+24,ATL_07,2,2,3,2007,Emmitt Thomas,Hue Jackson,Mike Zimmer,1,2.0
+25,ATL_08,3,4,4,2008,Mike Smith,Mike Mularkey,Brian VanGorder,1,2.0
+26,ATL_09,1,2,2,2009,Mike Smith,Mike Mularkey,Brian VanGorder,0,
+27,ATL_10,1,2,2,2010,Mike Smith,Mike Mularkey,Brian VanGorder,0,
+28,ATL_11,3,2,2,2011,Mike Smith,Mike Mularkey,Brian VanGorder,0,
+29,ATL_12,3,3,2,2012,Mike Smith,Dirk Koetter,Mike Nolan,0,
+30,ATL_13,2,3,3,2013,Mike Smith,Dirk Koetter,Mike Nolan,0,
+31,ATL_14,2,3,3,2014,Mike Smith,Dirk Koetter,Mike Nolan,0,
+32,ATL_15,2,3,3,2015,Dan Quinn,Kyle Shanahan,Richard Smith,1,2.0
+33,ATL_16,3,2,2,2016,Dan Quinn,Kyle Shanahan,Richard Smith,0,
+34,BAL_00,4,4,4,2000,Brian Billick,Matt Cavanaugh,Marvin Lewis,0,
+35,BAL_01,1,1,1,2001,Brian Billick,Matt Cavanaugh,Marvin Lewis,0,
+36,BAL_02,1,1,1,2002,Brian Billick,Matt Cavanaugh,Mike Nolan,0,
+37,BAL_03,4,1,4,2003,Brian Billick,Matt Cavanaugh,Mike Nolan,0,
+38,BAL_04,4,1,4,2004,Brian Billick,Matt Cavanaugh,Mike Nolan,0,
+39,BAL_05,1,1,1,2005,Brian Billick,Jim Fassel,Rex Ryan,0,
+40,BAL_06,4,4,4,2006,Brian Billick,Jim Fassel,Rex Ryan,0,
+41,BAL_07,1,2,2,2007,Brian Billick,Rick Neuheisel,Rex Ryan,0,
+42,BAL_08,4,4,4,2008,John Harbaugh,Cam Cameron,Rex Ryan,1,3.0
+43,BAL_09,1,2,2,2009,John Harbaugh,Cam Cameron,Greg Mattison,0,
+44,BAL_10,4,4,4,2010,John Harbaugh,Cam Cameron,Greg Mattison,0,
+45,BAL_11,1,2,2,2011,John Harbaugh,Cam Cameron,Chuck Pagano,0,
+46,BAL_12,3,2,2,2012,John Harbaugh,"Jim Caldwell, Cam Cameron",Dean Pees,0,
+47,BAL_13,2,3,3,2013,John Harbaugh,Jim Caldwell,Dean Pees,0,
+48,BAL_14,3,2,1,2014,John Harbaugh,Gary Kubiak,Dean Pees,0,
+49,BAL_15,2,3,3,2015,John Harbaugh,Marc Trestman,Dean Pees,0,
+50,BAL_16,2,3,3,2016,John Harbaugh,"Marty Mornhinweg, Marc Trestman",Dean Pees,0,
+51,BUF_00,3,2,2,2000,Wade Phillips,Joe Pendry,Ted Cottrell,0,
+52,BUF_01,1,1,1,2001,Gregg Williams,Mike Sheppard,Jerry Gray,1,2.0
+53,BUF_02,3,2,2,2002,Gregg Williams,Kevin Gilbride,Jerry Gray,0,
+54,BUF_03,1,2,2,2003,Gregg Williams,Kevin Gilbride,Jerry Gray,0,
+55,BUF_04,4,4,4,2004,Mike Mularkey,Tom Clements,Jerry Gray,1,4.0
+56,BUF_05,1,2,4,2005,Mike Mularkey,Tom Clements,Jerry Gray,0,
+57,BUF_06,4,2,4,2006,Dick Jauron,Steve Fairchild,Perry Fewell,1,3.0
+58,BUF_07,4,2,4,2007,Dick Jauron,Steve Fairchild,Perry Fewell,0,
+59,BUF_08,4,2,2,2008,Dick Jauron,Turk Schonert,Perry Fewell,0,
+60,BUF_09,1,2,2,2009,Perry Fewell,Alex Van Pelt,Perry Fewell,1,2.0
+61,BUF_10,2,2,2,2010,Chan Gailey,Curtis Modkins,George Edwards,1,4.0
+62,BUF_11,2,3,3,2011,Chan Gailey,Curtis Modkins,George Edwards,0,
+63,BUF_12,2,2,2,2012,Chan Gailey,Curtis Modkins,Dave Wannstedt,0,
+64,BUF_13,2,3,3,2013,Doug Marrone,Nathaniel Hackett,Mike Pettine,1,1.0
+65,BUF_14,2,3,3,2014,Doug Marrone,Nathaniel Hackett,Jim Schwartz,0,
+66,BUF_15,3,4,4,2015,Rex Ryan,Greg Roman,Dennis Thurman,1,3.0
+67,BUF_16,2,2,2,2016,Anthony Lynn,"Anthony Lynn, Greg Roman",Dennis Thurman,0,
+68,CAR_00,1,1,1,2000,George Seifert,"Bill Musgrave, Richard Williamson",John Marshall,0,
+69,CAR_01,1,1,1,2001,George Seifert,Richard Williamson,John Marshall,0,
+70,CAR_02,4,1,1,2002,John Fox,Dan Henning,Jack Del Rio,1,2.0
+71,CAR_03,4,4,4,2003,John Fox,Dan Henning,Mike Trgovac,0,
+72,CAR_04,3,1,1,2004,John Fox,Dan Henning,Mike Trgovac,0,
+73,CAR_05,4,4,4,2005,John Fox,Dan Henning,Mike Trgovac,0,
+74,CAR_06,1,1,1,2006,John Fox,Dan Henning,Mike Trgovac,0,
+75,CAR_07,1,1,1,2007,John Fox,Jeff Davidson,Mike Trgovac,0,
+76,CAR_08,4,4,4,2008,John Fox,Jeff Davidson,Mike Trgovac,0,
+77,CAR_09,4,1,4,2009,John Fox,Jeff Davidson,Ron Meeks,0,
+78,CAR_10,1,2,2,2010,John Fox,Jeff Davidson,Ron Meeks,0,
+79,CAR_11,3,2,2,2011,Ron Rivera,Rob Chudzinski,Sean McDermott,1,2.0
+80,CAR_12,3,2,2,2012,Ron Rivera,Rob Chudzinski,Sean McDermott,0,
+81,CAR_13,4,2,4,2013,Ron Rivera,Mike Shula,Sean McDermott,0,
+82,CAR_14,2,2,2,2014,Ron Rivera,Mike Shula,Sean McDermott,0,
+83,CAR_15,3,4,4,2015,Ron Rivera,Mike Shula,Sean McDermott,0,
+84,CAR_16,2,3,3,2016,Ron Rivera,Mike Shula,Sean McDermott,0,
+85,CHI_00,1,2,2,2000,Dick Jauron,Gary Crowton,Greg Blache,0,
+86,CHI_01,1,1,1,2001,Dick Jauron,John Shoop,Greg Blache,0,
+87,CHI_02,1,1,1,2002,Dick Jauron,John Shoop,Greg Blache,0,
+88,CHI_03,1,1,1,2003,Dick Jauron,John Shoop,Greg Blache,0,
+89,CHI_04,1,1,1,2004,Lovie Smith,Terry Shea,Ron Rivera,1,2.0
+90,CHI_05,4,1,4,2005,Lovie Smith,Ron Turner,Ron Rivera,0,
+91,CHI_06,4,4,1,2006,Lovie Smith,Ron Turner,Ron Rivera,0,
+92,CHI_07,1,1,1,2007,Lovie Smith,Ron Turner,Bob Babich,0,
+93,CHI_08,1,1,1,2008,Lovie Smith,Ron Turner,Bob Babich,0,
+94,CHI_09,1,3,2,2009,Lovie Smith,Ron Turner,Bob Babich,0,
+95,CHI_10,4,4,1,2010,Lovie Smith,Mike Martz,Rod Marinelli,0,
+96,CHI_11,4,4,4,2011,Lovie Smith,Mike Martz,Rod Marinelli,0,
+97,CHI_12,1,2,2,2012,Lovie Smith,Mike Tice,Rod Marinelli,0,
+98,CHI_13,2,3,3,2013,Marc Trestman,Aaron Kromer,Mel Tucker,1,4.0
+99,CHI_14,2,3,3,2014,Marc Trestman,Aaron Kromer,Mel Tucker,0,
+100,CHI_15,3,2,2,2015,John Fox,Adam Gase,Vic Fangio,1,3.0
+101,CHI_16,2,3,3,2016,John Fox,Dowell Loggains,Vic Fangio,0,
+102,CIN_00,1,1,4,2000,Bruce Coslet,Ken Anderson,Dick LeBeau,0,
+103,CIN_01,1,1,1,2001,Dick LeBeau,Bob Bratkowski,Mark Duffner,1,3.0
+104,CIN_02,1,1,1,2002,Dick LeBeau,Bob Bratkowski,Mark Duffner,0,
+105,CIN_03,4,1,1,2003,Marvin Lewis,Bob Bratkowski,Leslie Frazier,1,2.0
+106,CIN_04,1,1,1,2004,Marvin Lewis,Bob Bratkowski,Leslie Frazier,0,
+107,CIN_05,3,1,1,2005,Marvin Lewis,Bob Bratkowski,Chuck Bresnahan,0,
+108,CIN_06,3,1,1,2006,Marvin Lewis,Bob Bratkowski,Chuck Bresnahan,0,
+109,CIN_07,3,1,1,2007,Marvin Lewis,Bob Bratkowski,Chuck Bresnahan,0,
+110,CIN_08,1,2,2,2008,Marvin Lewis,Bob Bratkowski,Mike Zimmer,0,
+111,CIN_09,4,2,4,2009,Marvin Lewis,Bob Bratkowski,Mike Zimmer,0,
+112,CIN_10,3,2,2,2010,Marvin Lewis,Bob Bratkowski,Mike Zimmer,0,
+113,CIN_11,1,2,2,2011,Marvin Lewis,Jay Gruden,Mike Zimmer,0,
+114,CIN_12,3,2,2,2012,Marvin Lewis,Jay Gruden,Mike Zimmer,0,
+115,CIN_13,3,2,2,2013,Marvin Lewis,Jay Gruden,Mike Zimmer,0,
+116,CIN_14,2,2,2,2014,Marvin Lewis,Hue Jackson,Paul Guenther,0,
+117,CIN_15,3,2,2,2015,Marvin Lewis,Hue Jackson,Paul Guenther,0,
+118,CIN_16,2,3,3,2016,Marvin Lewis,Ken Zampese,Paul Guenther,0,
+119,CLE_00,1,1,1,2000,Chris Palmer,Pete Carmichael,Romeo Crennel,0,
+120,CLE_01,1,2,2,2001,Butch Davis,Bruce Arians,Foge Fazio,1,3.0
+121,CLE_02,1,2,2,2002,Butch Davis,Bruce Arians,Foge Fazio,0,
+122,CLE_03,1,2,2,2003,Butch Davis,Bruce Arians,Dave Campo,0,
+123,CLE_04,4,4,4,2004,Terry Robiskie,"Rob Chudzinski, Terry Robiskie",Dave Campo,1,4.0
+124,CLE_05,1,1,1,2005,Romeo Crennel,Maurice Carthon,Todd Grantham,1,3.0
+125,CLE_06,1,1,4,2006,Romeo Crennel,"Maurice Carthon, Jeff Davidson",Todd Grantham,0,
+126,CLE_07,1,4,1,2007,Romeo Crennel,Rob Chudzinski,Todd Grantham,0,
+127,CLE_08,1,1,2,2008,Romeo Crennel,Rob Chudzinski,Mel Tucker,0,
+128,CLE_09,1,2,2,2009,Eric Mangini,Brian Daboll,Rob Ryan,1,4.0
+129,CLE_10,1,2,2,2010,Eric Mangini,Brian Daboll,Rob Ryan,0,
+130,CLE_11,1,3,2,2011,Pat Shurmur,,Dick Jauron,1,1.0
+131,CLE_12,1,3,3,2012,Pat Shurmur,Brad Childress,Dick Jauron,0,
+132,CLE_13,2,3,3,2013,Rob Chudzinski,Norv Turner,Ray Horton,1,1.0
+133,CLE_14,3,2,2,2014,Mike Pettine,Kyle Shanahan,"[""Jim O'Neil""]",1,3.0
+134,CLE_15,2,3,3,2015,Mike Pettine,John DeFilippo,"[""Jim O'Neil""]",0,
+135,CLE_16,2,3,3,2016,Hue Jackson,,Ray Horton,1,4.0
+136,DAL_00,4,1,4,2000,Dave Campo,Jack Reilly,Mike Zimmer,0,
+137,DAL_01,4,4,4,2001,Dave Campo,Jack Reilly,Mike Zimmer,0,
+138,DAL_02,1,1,1,2002,Dave Campo,Bruce Coslet,Mike Zimmer,0,
+139,DAL_03,4,1,4,2003,Bill Parcells,Maurice Carthon,Mike Zimmer,1,2.0
+140,DAL_04,4,1,1,2004,Bill Parcells,Maurice Carthon,Mike Zimmer,0,
+141,DAL_05,4,4,4,2005,Bill Parcells,,Mike Zimmer,0,
+142,DAL_06,3,4,4,2006,Bill Parcells,,Mike Zimmer,0,
+143,DAL_07,3,4,2,2007,Wade Phillips,Jason Garrett,Brian Stewart,1,2.0
+144,DAL_08,3,3,2,2008,Wade Phillips,Jason Garrett,Brian Stewart,0,
+145,DAL_09,3,4,2,2009,Wade Phillips,Jason Garrett,,0,
+146,DAL_10,3,2,2,2010,Wade Phillips,Jason Garrett,Paul Pasqualoni,0,
+147,DAL_11,3,3,2,2011,Jason Garrett,,Rob Ryan,1,4.0
+148,DAL_12,2,3,3,2012,Jason Garrett,Bill Callahan,Rob Ryan,0,
+149,DAL_13,2,3,3,2013,Jason Garrett,Bill Callahan,Monte Kiffin,0,
+150,DAL_14,3,4,4,2014,Jason Garrett,Bill Callahan,Rod Marinelli,0,
+151,DAL_15,2,3,2,2015,Jason Garrett,Scott Linehan,Rod Marinelli,0,
+152,DAL_16,3,4,4,2016,Jason Garrett,Scott Linehan,Rod Marinelli,0,
+153,DEN_00,3,1,1,2000,Mike Shanahan,Gary Kubiak,Greg Robinson,0,
+154,DEN_01,4,1,1,2001,Mike Shanahan,Gary Kubiak,Ray Rhodes,0,
+155,DEN_02,1,1,1,2002,Mike Shanahan,Gary Kubiak,Ray Rhodes,0,
+156,DEN_03,4,4,4,2003,Mike Shanahan,Gary Kubiak,Larry Coyer,0,
+157,DEN_04,4,4,4,2004,Mike Shanahan,Gary Kubiak,Larry Coyer,0,
+158,DEN_05,4,4,4,2005,Mike Shanahan,Gary Kubiak,Larry Coyer,0,
+159,DEN_06,4,4,4,2006,Mike Shanahan,Rick Dennison,Larry Coyer,0,
+160,DEN_07,3,2,2,2007,Mike Shanahan,Rick Dennison,Bob Slowik,0,
+161,DEN_08,2,3,3,2008,Mike Shanahan,Rick Dennison,Bob Slowik,0,
+162,DEN_09,2,2,2,2009,Josh McDaniels,Mike McCoy,Mike Nolan,1,1.0
+163,DEN_10,2,3,3,2010,Eric Studesville,Mike McCoy,Don Martindale,0,
+164,DEN_11,2,2,3,2011,John Fox,Mike McCoy,Dennis Allen,1,3.0
+165,DEN_12,3,3,3,2012,John Fox,Mike McCoy,Jack Del Rio,0,
+166,DEN_13,2,3,3,2013,John Fox,Adam Gase,Jack Del Rio,0,
+167,DEN_14,2,3,3,2014,John Fox,Adam Gase,Jack Del Rio,0,
+168,DEN_15,2,3,3,2015,Gary Kubiak,Rick Dennison,Wade Phillips,1,4.0
+169,DEN_16,2,3,3,2016,Gary Kubiak,Rick Dennison,Wade Phillips,0,
+170,DET_00,1,1,1,2000,Gary Moeller,Sylvester Croom,Larry Peccatiello,0,
+171,DET_01,1,1,1,2001,Marty Mornhinweg,Maurice Carthon,Vince Tobin,1,4.0
+172,DET_02,1,1,1,2002,Marty Mornhinweg,Maurice Carthon,Kurt Schottenheimer,0,
+173,DET_03,1,1,1,2003,Steve Mariucci,Sherman Lewis,Kurt Schottenheimer,1,1.0
+174,DET_04,1,1,1,2004,Steve Mariucci,Sherman Lewis,Dick Jauron,0,
+175,DET_05,1,1,1,2005,Dick Jauron,"Greg Olson, Ted Tollner",Dick Jauron,1,3.0
+176,DET_06,2,1,1,2006,Rod Marinelli,Mike Martz,Donnie Henderson,1,2.0
+177,DET_07,2,3,3,2007,Rod Marinelli,Mike Martz,Joe Barry,0,
+178,DET_08,1,2,2,2008,Rod Marinelli,Jim Colletto,Joe Barry,0,
+179,DET_09,2,3,3,2009,Jim Schwartz,Scott Linehan,Gunther Cunningham,1,2.0
+180,DET_10,2,3,3,2010,Jim Schwartz,Scott Linehan,Gunther Cunningham,0,
+181,DET_11,2,3,3,2011,Jim Schwartz,Scott Linehan,Gunther Cunningham,0,
+182,DET_12,2,3,3,2012,Jim Schwartz,Scott Linehan,Gunther Cunningham,0,
+183,DET_13,2,3,3,2013,Jim Schwartz,Scott Linehan,Gunther Cunningham,0,
+184,DET_14,2,3,3,2014,Jim Caldwell,Joe Lombardi,Teryl Austin,1,4.0
+185,DET_15,2,3,3,2015,Jim Caldwell,"Jim Bob Cooter, Joe Lombardi",Teryl Austin,0,
+186,DET_16,2,3,3,2016,Jim Caldwell,Jim Bob Cooter,Teryl Austin,0,
+187,GB_00,1,1,1,2000,Mike Sherman,Tom Rossley,Ed Donatell,0,
+188,GB_01,3,4,2,2001,Mike Sherman,Tom Rossley,Ed Donatell,0,
+189,GB_02,1,1,2,2002,Mike Sherman,Tom Rossley,Ed Donatell,0,
+190,GB_03,4,4,4,2003,Mike Sherman,Tom Rossley,Ed Donatell,0,
+191,GB_04,3,1,1,2004,Mike Sherman,Tom Rossley,Bob Slowik,0,
+192,GB_05,1,1,1,2005,Mike Sherman,Tom Rossley,Jim Bates,0,
+193,GB_06,2,3,3,2006,Mike McCarthy,Jeff Jagodzinski,Bob Sanders,1,1.0
+194,GB_07,3,2,2,2007,Mike McCarthy,Joe Philbin,Bob Sanders,0,
+195,GB_08,3,2,2,2008,Mike McCarthy,Joe Philbin,Bob Sanders,0,
+196,GB_09,3,2,2,2009,Mike McCarthy,Joe Philbin,Dom Capers,0,
+197,GB_10,3,2,2,2010,Mike McCarthy,Joe Philbin,Dom Capers,0,
+198,GB_11,3,3,3,2011,Mike McCarthy,Joe Philbin,Dom Capers,0,
+199,GB_12,2,3,3,2012,Mike McCarthy,Tom Clements,Dom Capers,0,
+200,GB_13,3,3,3,2013,Mike McCarthy,Tom Clements,Dom Capers,0,
+201,GB_14,3,2,2,2014,Mike McCarthy,Tom Clements,Dom Capers,0,
+202,GB_15,2,3,3,2015,Mike McCarthy,Edgar Bennett,Dom Capers,0,
+203,GB_16,2,3,3,2016,Mike McCarthy,Edgar Bennett,Dom Capers,0,
+204,HOU_02,1,1,1,2002,Dom Capers,Chris Palmer,Vic Fangio,0,
+205,HOU_03,4,4,4,2003,Dom Capers,Chris Palmer,Vic Fangio,0,
+206,HOU_04,3,2,4,2004,Dom Capers,Chris Palmer,Vic Fangio,0,
+207,HOU_05,1,1,1,2005,Dom Capers,"Chris Palmer, Joe Pendry",Vic Fangio,0,
+208,HOU_06,4,1,1,2006,Gary Kubiak,Troy Calhoun,Richard Smith,1,4.0
+209,HOU_07,3,1,1,2007,Gary Kubiak,Mike Sherman,Richard Smith,0,
+210,HOU_08,3,4,1,2008,Gary Kubiak,Kyle Shanahan,Richard Smith,0,
+211,HOU_09,3,4,1,2009,Gary Kubiak,Kyle Shanahan,Frank Bush,0,
+212,HOU_10,3,3,2,2010,Gary Kubiak,Rick Dennison,Frank Bush,0,
+213,HOU_11,4,4,4,2011,Gary Kubiak,Rick Dennison,Wade Phillips,0,
+214,HOU_12,1,2,4,2012,Gary Kubiak,Rick Dennison,Wade Phillips,0,
+215,HOU_13,2,3,3,2013,Wade Phillips,Rick Dennison,Wade Phillips,1,3.0
+216,HOU_14,3,2,2,2014,Bill O'Brien,,Romeo Crennel,1,4.0
+217,HOU_15,2,3,3,2015,Bill O'Brien,George Godsey,Romeo Crennel,0,
+218,HOU_16,1,3,2,2016,Bill O'Brien,George Godsey,Romeo Crennel,0,
+219,IND_00,3,2,2,2000,Jim Mora,Tom Moore,Vic Fangio,0,
+220,IND_01,3,2,2,2001,Jim Mora,Tom Moore,Vic Fangio,0,
+221,IND_02,3,2,2,2002,Tony Dungy,Tom Moore,Ron Meeks,1,2.0
+222,IND_03,3,2,2,2003,Tony Dungy,Tom Moore,Ron Meeks,0,
+223,IND_04,3,2,2,2004,Tony Dungy,Tom Moore,Ron Meeks,0,
+224,IND_05,3,2,2,2005,Tony Dungy,Tom Moore,Ron Meeks,0,
+225,IND_06,3,2,2,2006,Tony Dungy,Tom Moore,Ron Meeks,0,
+226,IND_07,3,2,2,2007,Tony Dungy,Tom Moore,Ron Meeks,0,
+227,IND_08,2,3,3,2008,Tony Dungy,Tom Moore,Ron Meeks,0,
+228,IND_09,2,3,3,2009,Jim Caldwell,Tom Moore,Larry Coyer,1,4.0
+229,IND_10,2,3,3,2010,Jim Caldwell,Clyde Christensen,Larry Coyer,0,
+230,IND_11,2,3,3,2011,Jim Caldwell,Clyde Christensen,Larry Coyer,0,
+231,IND_12,2,3,3,2012,Chuck Pagano,Bruce Arians,Greg Manusky,1,3.0
+232,IND_13,2,3,3,2013,Chuck Pagano,Pep Hamilton,Greg Manusky,0,
+233,IND_14,2,3,3,2014,Chuck Pagano,Pep Hamilton,Greg Manusky,0,
+234,IND_15,2,3,3,2015,Chuck Pagano,"Rob Chudzinski, Pep Hamilton",Greg Manusky,0,
+235,IND_16,2,3,3,2016,Chuck Pagano,Rob Chudzinski,Ted Monachino,0,
+236,JAC_00,3,2,2,2000,Tom Coughlin,,Dom Capers,0,
+237,JAC_01,2,3,3,2001,Tom Coughlin,Bobby Petrino,Gary Moeller,0,
+238,JAC_02,1,2,4,2002,Tom Coughlin,,John Pease,0,
+239,JAC_03,1,2,2,2003,Jack Del Rio,Bill Musgrave,Mike Smith,1,3.0
+240,JAC_04,1,2,2,2004,Jack Del Rio,Bill Musgrave,Mike Smith,0,
+241,JAC_05,4,2,4,2005,Jack Del Rio,Carl Smith,Mike Smith,0,
+242,JAC_06,4,4,4,2006,Jack Del Rio,Carl Smith,Mike Smith,0,
+243,JAC_07,4,4,4,2007,Jack Del Rio,Dirk Koetter,Mike Smith,0,
+244,JAC_08,1,2,2,2008,Jack Del Rio,Dirk Koetter,Gregg Williams,0,
+245,JAC_09,3,2,2,2009,Jack Del Rio,Dirk Koetter,Mel Tucker,0,
+246,JAC_10,4,4,4,2010,Jack Del Rio,Dirk Koetter,Mel Tucker,0,
+247,JAC_11,1,2,2,2011,Mel Tucker,Dirk Koetter,Mel Tucker,0,
+248,JAC_12,2,3,3,2012,Mike Mularkey,Bob Bratkowski,Mel Tucker,1,4.0
+249,JAC_13,2,3,3,2013,Gus Bradley,Jedd Fisch,Bob Babich,1,3.0
+250,JAC_14,2,3,3,2014,Gus Bradley,Jedd Fisch,Bob Babich,0,
+251,JAC_15,2,3,3,2015,Gus Bradley,Greg Olson,Bob Babich,0,
+252,JAC_16,2,3,3,2016,Doug Marrone,"Nathaniel Hackett, Greg Olson",Todd Wash,1,4.0
+253,KC_00,2,1,1,2000,Gunther Cunningham,Jimmy Raye,Kurt Schottenheimer,0,
+254,KC_01,1,1,1,2001,Dick Vermeil,Al Saunders,Greg Robinson,1,4.0
+255,KC_02,4,4,1,2002,Dick Vermeil,Al Saunders,Greg Robinson,0,
+256,KC_03,3,1,1,2003,Dick Vermeil,Al Saunders,Greg Robinson,0,
+257,KC_04,3,1,1,2004,Dick Vermeil,Al Saunders,Gunther Cunningham,0,
+258,KC_05,4,4,4,2005,Dick Vermeil,Al Saunders,Gunther Cunningham,0,
+259,KC_06,4,4,4,2006,Herm Edwards,Mike Solari,Gunther Cunningham,1,3.0
+260,KC_07,1,1,1,2007,Herm Edwards,Mike Solari,Gunther Cunningham,0,
+261,KC_08,2,3,3,2008,Herm Edwards,Chan Gailey,Gunther Cunningham,0,
+262,KC_09,2,2,3,2009,Todd Haley,Todd Haley,Clancy Pendergast,1,4.0
+263,KC_10,1,2,4,2010,Todd Haley,Charlie Weis,Romeo Crennel,0,
+264,KC_11,1,2,2,2011,Romeo Crennel,Bill Muir,Romeo Crennel,1,3.0
+265,KC_12,1,2,2,2012,Romeo Crennel,Brian Daboll,Romeo Crennel,0,
+266,KC_13,1,2,2,2013,Andy Reid,Doug Pederson,Bob Sutton,1,4.0
+267,KC_14,1,2,2,2014,Andy Reid,Doug Pederson,Bob Sutton,0,
+268,KC_15,4,2,2,2015,Andy Reid,Doug Pederson,Bob Sutton,0,
+269,KC_16,2,3,2,2016,Andy Reid,Brad Childress,Bob Sutton,0,
+270,MIA_00,4,4,4,2016,John Fassel,Rob Boras,Gregg Williams,0,
+271,MIA_01,4,2,4,2000,Dave Wannstedt,Chan Gailey,Jim Bates,0,
+272,MIA_02,4,4,4,2001,Dave Wannstedt,Chan Gailey,Jim Bates,0,
+273,MIA_03,4,4,4,2002,Dave Wannstedt,Norv Turner,Jim Bates,0,
+274,MIA_04,1,1,1,2003,Dave Wannstedt,Norv Turner,Jim Bates,0,
+275,MIA_05,1,2,2,2004,Dave Wannstedt,Chris Foerster,Jim Bates,0,
+276,MIA_06,2,3,3,2005,Nick Saban,Scott Linehan,Richard Smith,1,2.0
+277,MIA_07,1,1,2,2006,Nick Saban,Mike Mularkey,Dom Capers,0,
+278,MIA_08,1,2,4,2007,Cam Cameron,,Dom Capers,1,4.0
+279,MIA_09,3,2,2,2008,Tony Sparano,Dan Henning,Paul Pasqualoni,1,1.0
+280,MIA_10,1,1,1,2009,Tony Sparano,Dan Henning,Paul Pasqualoni,0,
+281,MIA_11,4,2,4,2010,Tony Sparano,Dan Henning,Mike Nolan,0,
+282,MIA_12,3,2,2,2011,Todd Bowles,Brian Daboll,Mike Nolan,1,3.0
+283,MIA_13,2,3,3,2012,Joe Philbin,Mike Sherman,Kevin Coyle,1,4.0
+284,MIA_14,2,3,3,2013,Joe Philbin,Mike Sherman,Kevin Coyle,0,
+285,MIA_15,2,3,3,2014,Joe Philbin,Bill Lazor,Kevin Coyle,0,
+286,MIA_16,2,2,2,2015,Joe Philbin,"Bill Lazor, Zac Taylor","Lou Anarumo, Kevin Coyle",0,
+287,MIN_00,3,2,2,2016,Adam Gase,Clyde Christensen,Vance Joseph,1,1.0
+288,MIN_01,3,2,2,2000,Dennis Green,Sherman Lewis,Emmitt Thomas,0,
+289,MIN_02,3,2,2,2001,Mike Tice,Sherman Lewis,Emmitt Thomas,1,1.0
+290,MIN_03,4,2,4,2002,Mike Tice,Scott Linehan,Willie Shaw,0,
+291,MIN_04,3,3,2,2003,Mike Tice,Scott Linehan,"[""George O'Leary""]",0,
+292,MIN_05,3,2,2,2004,Mike Tice,Scott Linehan,Ted Cottrell,0,
+293,MIN_06,1,1,1,2005,Mike Tice,Steve Loney,Ted Cottrell,0,
+294,MIN_07,4,4,4,2006,Brad Childress,Darrell Bevell,Mike Tomlin,1,1.0
+295,MIN_08,4,4,4,2007,Brad Childress,Darrell Bevell,Leslie Frazier,0,
+296,MIN_09,1,2,2,2008,Brad Childress,Darrell Bevell,Leslie Frazier,0,
+297,MIN_10,3,2,2,2009,Brad Childress,Darrell Bevell,Leslie Frazier,0,
+298,MIN_11,1,2,2,2010,Brad Childress,Darrell Bevell,"Leslie Frazier, Fred Pagac",0,
+299,MIN_12,1,2,2,2011,Leslie Frazier,Bill Musgrave,Fred Pagac,1,3.0
+300,MIN_13,2,2,3,2012,Leslie Frazier,Bill Musgrave,Alan Williams,0,
+301,MIN_14,2,3,3,2013,Leslie Frazier,Bill Musgrave,Alan Williams,0,
+302,MIN_15,4,4,4,2014,Mike Zimmer,Norv Turner,George Edwards,1,2.0
+303,MIN_16,2,3,3,2015,Mike Zimmer,Norv Turner,George Edwards,0,
+304,NE_00,2,1,1,2016,Mike Zimmer,"Pat Shurmur, Norv Turner",George Edwards,0,
+305,NE_01,1,2,4,2000,Bill Belichick,Charlie Weis,,0,
+306,NE_02,2,3,3,2001,Bill Belichick,Charlie Weis,Romeo Crennel,0,
+307,NE_03,1,1,1,2002,Bill Belichick,Charlie Weis,Romeo Crennel,0,
+308,NE_04,4,4,4,2003,Bill Belichick,Charlie Weis,Romeo Crennel,0,
+309,NE_05,3,2,2,2004,Bill Belichick,Charlie Weis,Romeo Crennel,0,
+310,NE_06,3,2,2,2005,Bill Belichick,,Eric Mangini,0,
+311,NE_07,2,2,2,2006,Bill Belichick,Josh McDaniels,Dean Pees,0,
+312,NE_08,3,2,2,2007,Bill Belichick,Josh McDaniels,Dean Pees,0,
+313,NE_09,2,2,2,2008,Bill Belichick,Josh McDaniels,Dean Pees,0,
+314,NE_10,3,2,2,2009,Bill Belichick,,Dean Pees,0,
+315,NE_11,2,3,3,2010,Bill Belichick,,,0,
+316,NE_12,3,3,3,2011,Bill Belichick,"[""Bill O'Brien""]",,0,
+317,NE_13,3,3,3,2012,Bill Belichick,Josh McDaniels,Matt Patricia,0,
+318,NE_14,2,3,3,2013,Bill Belichick,Josh McDaniels,Matt Patricia,0,
+319,NE_15,2,3,3,2014,Bill Belichick,Josh McDaniels,Matt Patricia,0,
+320,NE_16,2,3,3,2015,Bill Belichick,Josh McDaniels,Matt Patricia,0,
+321,NO_00,3,2,2,2016,Bill Belichick,Josh McDaniels,Matt Patricia,0,
+322,NO_01,2,2,2,2000,Jim Haslett,Mike McCarthy,Ron Zook,0,
+323,NO_02,1,2,2,2001,Jim Haslett,Mike McCarthy,Ron Zook,0,
+324,NO_03,1,2,2,2002,Jim Haslett,Mike McCarthy,Rick Venturi,0,
+325,NO_04,3,2,2,2003,Jim Haslett,Mike McCarthy,Rick Venturi,0,
+326,NO_05,3,2,2,2004,Jim Haslett,Mike McCarthy,Rick Venturi,0,
+327,NO_06,1,1,1,2005,Jim Haslett,Mike Sheppard,Rick Venturi,0,
+328,NO_07,3,3,1,2006,Sean Payton,Doug Marrone,Gary Gibbs,1,4.0
+329,NO_08,1,3,2,2007,Sean Payton,Doug Marrone,Gary Gibbs,0,
+330,NO_09,3,4,2,2008,Sean Payton,Doug Marrone,Gary Gibbs,0,
+331,NO_10,3,3,2,2009,Sean Payton,Pete Carmichael,Gregg Williams,0,
+332,NO_11,2,3,3,2010,Sean Payton,Pete Carmichael,Gregg Williams,0,
+333,NO_12,2,3,3,2011,Sean Payton,Pete Carmichael,Gregg Williams,0,
+334,NO_13,3,3,2,2012,Aaron Kromer,Pete Carmichael,Steve Spagnuolo,0,
+335,NO_14,2,3,3,2013,Sean Payton,Pete Carmichael,Rob Ryan,0,
+336,NO_15,2,3,3,2014,Sean Payton,Pete Carmichael,Rob Ryan,0,
+337,NO_16,2,3,3,2015,Sean Payton,Pete Carmichael,"Dennis Allen, Rob Ryan",0,
+338,NYG_00,3,1,1,2016,Sean Payton,Pete Carmichael,Dennis Allen,0,
+339,NYG_01,1,2,1,2000,Jim Fassel,Sean Payton,John Fox,0,
+340,NYG_02,1,1,1,2001,Jim Fassel,Sean Payton,John Fox,0,
+341,NYG_03,2,3,3,2002,Jim Fassel,Sean Payton,Johnny Lynn,0,
+342,NYG_04,1,1,1,2003,Jim Fassel,,Johnny Lynn,0,
+343,NYG_05,1,1,1,2004,Tom Coughlin,John Hufnagel,Tim Lewis,1,1.0
+344,NYG_06,1,2,2,2005,Tom Coughlin,John Hufnagel,Tim Lewis,0,
+345,NYG_07,1,2,2,2006,Tom Coughlin,John Hufnagel,Tim Lewis,0,
+346,NYG_08,4,2,4,2007,Tom Coughlin,Kevin Gilbride,Steve Spagnuolo,0,
+347,NYG_09,3,2,2,2008,Tom Coughlin,Kevin Gilbride,Steve Spagnuolo,0,
+348,NYG_10,3,2,2,2009,Tom Coughlin,Kevin Gilbride,Bill Sheridan,0,
+349,NYG_11,2,3,3,2010,Tom Coughlin,Kevin Gilbride,Perry Fewell,0,
+350,NYG_12,3,2,2,2011,Tom Coughlin,Kevin Gilbride,Perry Fewell,0,
+351,NYG_13,2,3,3,2012,Tom Coughlin,Kevin Gilbride,Perry Fewell,0,
+352,NYG_14,2,3,3,2013,Tom Coughlin,Kevin Gilbride,Perry Fewell,0,
+353,NYG_15,2,3,3,2014,Tom Coughlin,Ben McAdoo,Perry Fewell,0,
+354,NYG_16,2,3,3,2015,Tom Coughlin,Ben McAdoo,Steve Spagnuolo,0,
+355,NYJ_00,1,1,1,2016,Ben McAdoo,Mike Sullivan,Steve Spagnuolo,1,1.0
+356,NYJ_01,4,4,4,2000,Al Groh,Dan Henning,Mike Nolan,0,
+357,NYJ_02,4,1,1,2001,Herm Edwards,Paul Hackett,Ted Cottrell,1,2.0
+358,NYJ_03,4,1,1,2002,Herm Edwards,Paul Hackett,Ted Cottrell,0,
+359,NYJ_04,4,4,4,2003,Herm Edwards,Paul Hackett,Ted Cottrell,0,
+360,NYJ_05,3,1,1,2004,Herm Edwards,Paul Hackett,Donnie Henderson,0,
+361,NYJ_06,1,2,4,2005,Herm Edwards,Mike Heimerdinger,Donnie Henderson,0,
+362,NYJ_07,2,2,2,2006,Eric Mangini,Brian Schottenheimer,Bob Sutton,1,4.0
+363,NYJ_08,1,2,2,2007,Eric Mangini,Brian Schottenheimer,Bob Sutton,0,
+364,NYJ_09,4,4,4,2008,Eric Mangini,Brian Schottenheimer,Bob Sutton,0,
+365,NYJ_10,1,4,4,2009,Rex Ryan,Brian Schottenheimer,Mike Pettine,1,3.0
+366,NYJ_11,1,2,2,2010,Rex Ryan,Brian Schottenheimer,Mike Pettine,0,
+367,NYJ_12,1,2,2,2011,Rex Ryan,Brian Schottenheimer,Mike Pettine,0,
+368,NYJ_13,1,2,2,2012,Rex Ryan,Tony Sparano,Mike Pettine,0,
+369,NYJ_14,1,2,2,2013,Rex Ryan,Marty Mornhinweg,Dennis Thurman,0,
+370,NYJ_15,2,3,3,2014,Rex Ryan,Marty Mornhinweg,Dennis Thurman,0,
+371,NYJ_16,2,2,2,2015,Todd Bowles,Chan Gailey,Kacy Rodgers,1,2.0
+372,OAK_00,4,4,4,2016,Todd Bowles,Chan Gailey,Kacy Rodgers,0,
+373,OAK_01,4,1,1,2000,Jon Gruden,Bill Callahan,Chuck Bresnahan,0,
+374,OAK_02,1,1,1,2001,Jon Gruden,Bill Callahan,Chuck Bresnahan,0,
+375,OAK_03,3,1,1,2002,Bill Callahan,Marc Trestman,Chuck Bresnahan,1,1.0
+376,OAK_04,1,1,1,2003,Bill Callahan,Marc Trestman,Chuck Bresnahan,0,
+377,OAK_05,2,1,1,2004,Norv Turner,Jimmy Raye,Rob Ryan,1,1.0
+378,OAK_06,1,1,1,2005,Norv Turner,Jimmy Raye,Rob Ryan,0,
+379,OAK_07,4,4,4,2006,Art Shell,"John Shoop, Tom Walsh",Rob Ryan,1,1.0
+380,OAK_08,4,4,4,2007,Lane Kiffin,Greg Knapp,Rob Ryan,1,1.0
+381,OAK_09,1,2,2,2008,Lane Kiffin,Greg Knapp,Rob Ryan,0,
+382,OAK_10,1,2,4,2009,Tom Cable,,John Marshall,1,1.0
+383,OAK_11,1,2,2,2010,Tom Cable,Hue Jackson,John Marshall,0,
+384,OAK_12,3,3,3,2011,Hue Jackson,Al Saunders,Chuck Bresnahan,1,1.0
+385,OAK_13,2,3,2,2012,Dennis Allen,Greg Knapp,Jason Tarver,1,3.0
+386,OAK_14,2,3,3,2013,Dennis Allen,Greg Olson,Jason Tarver,0,
+387,OAK_15,2,3,3,2014,Dennis Allen,Greg Olson,Jason Tarver,0,
+388,OAK_16,2,2,3,2015,Jack Del Rio,Bill Musgrave,Ken Norton,1,2.0
+389,PHI_00,1,1,1,2016,Jack Del Rio,Bill Musgrave,Ken Norton,0,
+390,PHI_01,1,1,1,2000,Andy Reid,Rod Dowhower,Jim Johnson,0,
+391,PHI_02,1,1,1,2001,Andy Reid,Rod Dowhower,Jim Johnson,0,
+392,PHI_03,1,1,1,2002,Andy Reid,Brad Childress,Jim Johnson,0,
+393,PHI_04,1,1,1,2003,Andy Reid,Brad Childress,Jim Johnson,0,
+394,PHI_05,2,1,1,2004,Andy Reid,Brad Childress,Jim Johnson,0,
+395,PHI_06,1,1,1,2005,Andy Reid,Brad Childress,Jim Johnson,0,
+396,PHI_07,3,2,2,2006,Andy Reid,Marty Mornhinweg,Jim Johnson,0,
+397,PHI_08,2,2,2,2007,Andy Reid,Marty Mornhinweg,Jim Johnson,0,
+398,PHI_09,2,3,3,2008,Andy Reid,Marty Mornhinweg,Jim Johnson,0,
+399,PHI_10,3,3,2,2009,Andy Reid,Marty Mornhinweg,Sean McDermott,0,
+400,PHI_11,3,2,2,2010,Andy Reid,Marty Mornhinweg,Sean McDermott,0,
+401,PHI_12,2,3,3,2011,Andy Reid,Marty Mornhinweg,Juan Castillo,0,
+402,PHI_13,2,3,3,2012,Andy Reid,Marty Mornhinweg,"Todd Bowles, Juan Castillo",0,
+403,PHI_14,2,3,3,2013,Chip Kelly,Pat Shurmur,Bill Davis,1,1.0
+404,PHI_15,2,3,3,2014,Chip Kelly,Pat Shurmur,Bill Davis,0,
+405,PHI_16,2,3,3,2015,Pat Shurmur,Pat Shurmur,Bill Davis,0,
+406,PIT_00,4,4,4,2016,Doug Pederson,Frank Reich,Jim Schwartz,1,1.0
+407,PIT_01,4,4,4,2000,Bill Cowher,Kevin Gilbride,Tim Lewis,0,
+408,PIT_02,3,2,2,2001,Bill Cowher,Mike Mularkey,Tim Lewis,0,
+409,PIT_03,3,2,2,2002,Bill Cowher,Mike Mularkey,Tim Lewis,0,
+410,PIT_04,4,4,4,2003,Bill Cowher,Mike Mularkey,Tim Lewis,0,
+411,PIT_05,4,4,4,2004,Bill Cowher,Ken Whisenhunt,Dick LeBeau,0,
+412,PIT_06,3,2,2,2005,Bill Cowher,Ken Whisenhunt,Dick LeBeau,0,
+413,PIT_07,3,4,4,2006,Bill Cowher,Ken Whisenhunt,Dick LeBeau,0,
+414,PIT_08,3,2,2,2007,Mike Tomlin,Bruce Arians,Dick LeBeau,1,2.0
+415,PIT_09,3,2,2,2008,Mike Tomlin,Bruce Arians,Dick LeBeau,0,
+416,PIT_10,3,4,2,2009,Mike Tomlin,Bruce Arians,Dick LeBeau,0,
+417,PIT_11,3,2,2,2010,Mike Tomlin,Bruce Arians,Dick LeBeau,0,
+418,PIT_12,3,2,2,2011,Mike Tomlin,Bruce Arians,Dick LeBeau,0,
+419,PIT_13,2,3,3,2012,Mike Tomlin,Todd Haley,Dick LeBeau,0,
+420,PIT_14,2,3,3,2013,Mike Tomlin,Todd Haley,Dick LeBeau,0,
+421,PIT_15,2,3,3,2014,Mike Tomlin,Todd Haley,Dick LeBeau,0,
+422,PIT_16,2,3,3,2015,Mike Tomlin,Todd Haley,Keith Butler,0,
+423,SD_00,1,3,1,2016,Mike Tomlin,Todd Haley,Keith Butler,0,
+424,SD_01,1,1,1,2000,Mike Riley,Geep Chryst,Joe Pascale,0,
+425,SD_02,1,4,1,2001,Mike Riley,Norv Turner,"Mark Banker, Joe Pascale, Jim Vechiarella",0,
+426,SD_03,1,1,1,2002,Marty Schottenheimer,Cam Cameron,Dale Lindsey,1,3.0
+427,SD_04,4,4,4,2003,Marty Schottenheimer,Cam Cameron,Dale Lindsey,0,
+428,SD_05,4,4,1,2004,Marty Schottenheimer,Cam Cameron,Wade Phillips,0,
+429,SD_06,4,4,4,2005,Marty Schottenheimer,Cam Cameron,Wade Phillips,0,
+430,SD_07,4,4,4,2006,Marty Schottenheimer,Cam Cameron,Wade Phillips,0,
+431,SD_08,1,4,4,2007,Norv Turner,Clarence Shelmon,Ted Cottrell,1,4.0
+432,SD_09,3,2,2,2008,Norv Turner,Clarence Shelmon,"Ted Cottrell, Ron Rivera",0,
+433,SD_10,3,4,2,2009,Norv Turner,Clarence Shelmon,Ron Rivera,0,
+434,SD_11,3,3,2,2010,Norv Turner,Clarence Shelmon,Ron Rivera,0,
+435,SD_12,3,3,2,2011,Norv Turner,Clarence Shelmon,Greg Manusky,0,
+436,SD_13,4,2,4,2012,Norv Turner,Hal Hunter,John Pagano,0,
+437,SD_14,2,3,3,2013,Mike McCoy,Ken Whisenhunt,John Pagano,1,1.0
+438,SD_15,2,3,3,2014,Mike McCoy,Frank Reich,John Pagano,0,
+439,SD_16,2,3,3,2015,Mike McCoy,Frank Reich,John Pagano,0,
+440,SEA_00,3,1,1,2016,Mike McCoy,Ken Whisenhunt,John Pagano,0,
+441,SEA_01,4,1,4,2000,Steve Mariucci,Marty Mornhinweg,Jim Mora,0,
+442,SEA_02,1,1,1,2001,Steve Mariucci,Greg Knapp,Jim Mora,0,
+443,SEA_03,3,1,1,2002,Steve Mariucci,Greg Knapp,Jim Mora,0,
+444,SEA_04,3,1,1,2003,Dennis Erickson,Greg Knapp,Jim Mora,1,1.0
+445,SEA_05,4,4,1,2004,Dennis Erickson,Ted Tollner,Willy Robinson,0,
+446,SEA_06,3,1,1,2005,Mike Nolan,Mike McCarthy,Bill Davis,1,3.0
+447,SEA_07,1,1,1,2006,Mike Nolan,Norv Turner,Bill Davis,0,
+448,SEA_08,1,1,1,2007,Mike Nolan,Jim Hostler,Greg Manusky,0,
+449,SEA_09,2,3,3,2008,Mike Nolan,Mike Martz,Greg Manusky,0,
+450,SEA_10,2,3,3,2009,Mike Singletary,Jimmy Raye,Greg Manusky,1,2.0
+451,SEA_11,1,2,2,2010,Jim Tomsula,Jimmy Raye,Greg Manusky,1,2.0
+452,SEA_12,4,4,4,2011,Jim Harbaugh,Greg Roman,Vic Fangio,1,4.0
+453,SEA_13,3,4,4,2012,Jim Harbaugh,Greg Roman,Vic Fangio,0,
+454,SEA_14,3,4,4,2013,Jim Harbaugh,Greg Roman,Vic Fangio,0,
+455,SEA_15,3,4,2,2014,Jim Harbaugh,Greg Roman,Vic Fangio,0,
+456,SEA_16,3,3,3,2015,Jim Tomsula,Geep Chryst,Eric Mangini,1,3.0
+457,SF_00,3,1,1,2016,Chip Kelly,Curtis Modkins,"[""Jim O'Neil""]",1,4.0
+458,SF_01,4,4,4,2000,Mike Holmgren,Gil Haskell,Steve Sidwell,0,
+459,SF_02,3,1,1,2001,Mike Holmgren,Gil Haskell,Steve Sidwell,0,
+460,SF_03,4,1,1,2002,Mike Holmgren,Gil Haskell,Steve Sidwell,0,
+461,SF_04,1,1,1,2003,Mike Holmgren,Gil Haskell,Ray Rhodes,0,
+462,SF_05,4,4,4,2004,Mike Holmgren,Gil Haskell,Ray Rhodes,0,
+463,SF_06,4,1,4,2005,Mike Holmgren,Gil Haskell,"John Marshall, Ray Rhodes",0,
+464,SF_07,1,3,2,2006,Mike Holmgren,Gil Haskell,John Marshall,0,
+465,SF_08,1,1,1,2007,Mike Holmgren,Gil Haskell,John Marshall,0,
+466,SF_09,2,3,2,2008,Mike Holmgren,Gil Haskell,John Marshall,0,
+467,SF_10,1,2,2,2009,Jim Mora,Greg Knapp,Gus Bradley,1,3.0
+468,SF_11,4,4,4,2010,Pete Carroll,Jeremy Bates,Gus Bradley,1,2.0
+469,SF_12,4,4,4,2011,Pete Carroll,Darrell Bevell,Gus Bradley,0,
+470,SF_13,3,4,4,2012,Pete Carroll,Darrell Bevell,Gus Bradley,0,
+471,SF_14,3,2,2,2013,Pete Carroll,Darrell Bevell,Dan Quinn,0,
+472,SF_15,2,3,3,2014,Pete Carroll,Darrell Bevell,Dan Quinn,0,
+473,SF_16,2,3,3,2015,Pete Carroll,Darrell Bevell,Kris Richard,0,
+474,STL_00,1,1,1,2016,Pete Carroll,Darrell Bevell,Kris Richard,0,
+475,STL_01,3,4,1,2000,Mike Martz,Bobby Jackson,Peter Giunta,0,
+476,STL_02,3,1,1,2001,Mike Martz,Bobby Jackson,Lovie Smith,0,
+477,STL_03,3,1,1,2002,Mike Martz,Bobby Jackson,Lovie Smith,0,
+478,STL_04,4,1,1,2003,Mike Martz,Steve Fairchild,Lovie Smith,0,
+479,STL_05,3,1,1,2004,Mike Martz,Steve Fairchild,Larry Marmie,0,
+480,STL_06,3,2,2,2005,Mike Martz,Steve Fairchild,Larry Marmie,0,
+481,STL_07,3,2,2,2006,Scott Linehan,Greg Olson,Jim Haslett,1,1.0
+482,STL_08,1,2,2,2007,Scott Linehan,Greg Olson,Jim Haslett,0,
+483,STL_09,1,2,2,2008,Scott Linehan,Al Saunders,"Jim Haslett, Rick Venturi",0,
+484,STL_10,1,2,2,2009,Steve Spagnuolo,Pat Shurmur,Ken Flajole,1,3.0
+485,STL_11,2,3,3,2010,Steve Spagnuolo,Pat Shurmur,Ken Flajole,0,
+486,STL_12,1,2,2,2011,Steve Spagnuolo,Josh McDaniels,Ken Flajole,0,
+487,STL_13,1,2,2,2012,Jeff Fisher,Brian Schottenheimer,,1,2.0
+488,STL_14,1,2,2,2013,Jeff Fisher,Brian Schottenheimer,Tim Walton,0,
+489,STL_15,1,2,2,2014,Jeff Fisher,Brian Schottenheimer,Gregg Williams,0,
+490,STL_16,2,3,3,2015,Jeff Fisher,"Rob Boras, Frank Cignetti",Gregg Williams,0,
+491,TB_00,4,4,4,2000,Tony Dungy,Les Steckel,Monte Kiffin,0,
+492,TB_01,1,1,2,2001,Tony Dungy,Clyde Christensen,Monte Kiffin,0,
+493,TB_02,4,1,1,2002,Jon Gruden,Bill Muir,Monte Kiffin,1,4.0
+494,TB_03,4,1,1,2003,Jon Gruden,Bill Muir,Monte Kiffin,0,
+495,TB_04,4,1,1,2004,Jon Gruden,Bill Muir,Monte Kiffin,0,
+496,TB_05,4,1,4,2005,Jon Gruden,Bill Muir,Monte Kiffin,0,
+497,TB_06,1,1,1,2006,Jon Gruden,Bill Muir,Monte Kiffin,0,
+498,TB_07,1,2,4,2007,Jon Gruden,Bill Muir,Monte Kiffin,0,
+499,TB_08,1,2,2,2008,Jon Gruden,Bill Muir,Monte Kiffin,0,
+500,TB_09,1,2,2,2009,Raheem Morris,Greg Olson,Raheem Morris,1,3.0
+501,TB_10,1,2,2,2010,Raheem Morris,Greg Olson,Raheem Morris,0,
+502,TB_11,2,3,2,2011,Raheem Morris,Greg Olson,Keith Millard,0,
+503,TB_12,3,2,2,2012,Greg Schiano,Mike Sullivan,Bill Sheridan,1,2.0
+504,TB_13,1,2,2,2013,Greg Schiano,Mike Sullivan,Bill Sheridan,0,
+505,TB_14,2,3,3,2014,Lovie Smith,Jeff Tedford,Leslie Frazier,1,2.0
+506,TB_15,3,3,2,2015,Lovie Smith,Dirk Koetter,Leslie Frazier,0,
+507,TB_16,2,3,2,2016,Dirk Koetter,Todd Monken,Mike Smith,1,4.0
+508,TEN_00,4,4,4,2000,Jeff Fisher,Mike Heimerdinger,Gregg Williams,0,
+509,TEN_01,1,4,4,2001,Jeff Fisher,Mike Heimerdinger,Jim Schwartz,0,
+510,TEN_02,4,4,4,2002,Jeff Fisher,Mike Heimerdinger,Jim Schwartz,0,
+511,TEN_03,3,4,4,2003,Jeff Fisher,Mike Heimerdinger,Jim Schwartz,0,
+512,TEN_04,1,1,1,2004,Jeff Fisher,Mike Heimerdinger,Jim Schwartz,0,
+513,TEN_05,1,1,1,2005,Jeff Fisher,Norm Chow,Jim Schwartz,0,
+514,TEN_06,1,4,4,2006,Jeff Fisher,Norm Chow,Jim Schwartz,0,
+515,TEN_07,4,2,4,2007,Jeff Fisher,Norm Chow,Jim Schwartz,0,
+516,TEN_08,4,4,4,2008,Jeff Fisher,Mike Heimerdinger,Jim Schwartz,0,
+517,TEN_09,1,4,4,2009,Jeff Fisher,Mike Heimerdinger,Chuck Cecil,0,
+518,TEN_10,1,2,2,2010,Jeff Fisher,Mike Heimerdinger,Chuck Cecil,0,
+519,TEN_11,2,3,3,2011,Mike Munchak,Chris Palmer,Jerry Gray,1,4.0
+520,TEN_12,2,3,3,2012,Mike Munchak,Chris Palmer,Jerry Gray,0,
+521,TEN_13,2,2,2,2013,Mike Munchak,Dowell Loggains,Jerry Gray,0,
+522,TEN_14,2,3,3,2014,Ken Whisenhunt,Jason Michael,Ray Horton,1,1.0
+523,TEN_15,2,3,3,2015,Ken Whisenhunt,Jason Michael,Ray Horton,0,
+524,TEN_16,2,3,3,2016,Mike Mularkey,Terry Robiskie,Dick LeBeau,1,1.0
+525,WAS_00,1,1,1,2000,Terry Robiskie,,Ray Rhodes,0,
+526,WAS_01,4,4,4,2001,Marty Schottenheimer,Jimmy Raye,Kurt Schottenheimer,1,3.0
+527,WAS_02,1,2,1,2002,Steve Spurrier,,Marvin Lewis,1,4.0
+528,WAS_03,1,1,1,2003,Steve Spurrier,Hue Jackson,George Edwards,0,
+529,WAS_04,4,1,1,2004,Joe Gibbs,Don Breaux,Gregg Williams,1,1.0
+530,WAS_05,4,4,4,2005,Joe Gibbs,Don Breaux,Gregg Williams,0,
+531,WAS_06,4,4,4,2006,Joe Gibbs,"Don Breaux, Al Saunders",Gregg Williams,0,
+532,WAS_07,1,1,1,2007,Joe Gibbs,"Don Breaux, Al Saunders",Gregg Williams,0,
+533,WAS_08,1,1,4,2008,Jim Zorn,Sherman Smith,Greg Blache,1,1.0
+534,WAS_09,1,1,2,2009,Jim Zorn,Sherman Smith,Greg Blache,0,
+535,WAS_10,1,3,1,2010,Mike Shanahan,Kyle Shanahan,Jim Haslett,1,1.0
+536,WAS_11,2,2,2,2011,Mike Shanahan,Kyle Shanahan,Jim Haslett,0,
+537,WAS_12,3,4,4,2012,Mike Shanahan,Kyle Shanahan,Jim Haslett,0,
+538,WAS_13,2,3,3,2013,Mike Shanahan,Kyle Shanahan,Jim Haslett,0,
+539,WAS_14,2,3,3,2014,Jay Gruden,Sean McVay,Jim Haslett,1,1.0
+540,WAS_15,3,3,2,2015,Jay Gruden,Sean McVay,Joe Barry,0,
+541,WAS_16,2,3,3,2016,Jay Gruden,Sean McVay,Joe Barry,0,
